@@ -1,11 +1,10 @@
 # ADMINISTRACIÓN DE DISCOS 
 Administrar Discos en Windows y Linux 
 
-
-[Administrador de Discos en Windows](#disk_w)
-[Diskpart(cmd)](#cdm_w)
-[Admistrador de Discos en Windows](#disk_unix)
-[Terminal de Linux/Ubuntu](#cmd.unix)
+- [Administrador de Discos en Windows](#disk_w)
+- [Diskpart(cmd)](#cdm_w)
+- [Admistrador de Discos en Windows](#disk_unix)
+- [Terminal de Linux/Ubuntu](#cmd.unix)
 
 # DISKPART
 
