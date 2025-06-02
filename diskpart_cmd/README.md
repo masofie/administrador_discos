@@ -106,3 +106,15 @@ diskpart
 
 ![Mostrado resultado complero de disco mbr](./img_diskpart/diskpart_10.png)
 
+2.11 -  También para añadirle una letra a una partición podemos ejecutar el comando **'assign letter=X'** , para identificar la unidad
+
+![Añadiendo letra a la partición](./img_diskpart/diskpart_11.png)
+
+Para que se vea en el terminal podemos ejecutar el comando **'volume'** ahí se muestra todas las particiones de todos los discos , y ademas las demás características 
+
+![Añadiendo letra a la partición 2](./img_diskpart/diskpart_12.png)
+
+
+2.12 - Si queremos darle nombre la partición utilizamos el comando **'format'** y el tipo de formato que queremos . Si añadimos **quick** es para dar formato rápido 
+
+![Formato de una partición](./img_diskpart/diskpart_13.png)
