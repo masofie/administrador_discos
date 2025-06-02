@@ -4,6 +4,7 @@ Es una herramienta integrada en Windows , donde podemos gestionar discos duros ,
 linea de comados .
 <br>
 
+
 **Funcionamiento**
 <br>
 
