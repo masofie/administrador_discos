@@ -6,7 +6,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
 <br>
 
-Espero que esto te sirva de guia para tus proyectos :+1: . recuerda seguirme , para subir más contenido :ok_hand:
+Espero que esto te sirva de guia para tus proyectos :+1: . Recuerda seguirme , para subir más contenido :ok_hand:
 
 <br>
 
