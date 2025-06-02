@@ -18,20 +18,31 @@ linea de comados .
 
 2.1 – Abrimos el terminal (cmd) de Windows y lo ejecutamos como administrador.
 
+![Iniciando Diskpart](./img_diskpart/diskpart_1.png)
+
 Una vez dentro entramos a diskpart una herramienta de Windows para administrar nuestros discos y ejecutamos el siguiente comando 
 
 ~~~~~~~~
 diskpart
 ~~~~~~~~
 
+![Listar Discos](./img_diskpart/diskpart_2.png)
+
 2.2 – Primero mostramos los discos con el comando **‘list’** , aquí podemos ver que tenemos dos discos Disco0 y Disco1 .
 
+
+![Listar Discos](./img_diskpart/diskpart_3.png)
+
 2.3 - Para seleccionar un disco utilizamos el comando **‘select’** y el número del disco , sabes que esta seleccionando es que tiene el **(*)** al principio
+
+![Seleccionamos Disco](./img_diskpart/diskpart_3.png)
 
 2.4 - Para crear una partición primaria se usa create y el tipo de partición con el tamaño que deseas 
 ~~~~~~~~
  create partition primary size=2000
 ~~~~~~~~
+
+![Crear Particion Primaria](./img_diskpart/diskpart_4.png)
 
 2.5 - Creamos 3 particiones igual , tenemos que tener 4 particiones primarias y un espacio libre 
 
