@@ -17,6 +17,12 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
     - *list disk* (listar discos / mostrar discos)
     - *select disck* (seleccionar disco)
 
+    - *list partition* (mostrar particiones)
+    - *select partition* (seleccionar partición)
+    
+    - *list volume* (mostrar volumenes)
+    - *select volume* (seleccionar volume)
+
 - **Tareas :**
 
     Comandos para crear el tipo de particiones 
@@ -32,9 +38,11 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 
     Especificaciones de las particiones y discos
 
-    - *formart* (formatear partición)
+    - *formart* (formatear partición con NTFS o FAT32)
     - *assign letter=X* (asignar leta)
     - *covert gpt* (convertir disco a GPT)
+    - *label* (nombre de la partición)
+    - *quick* (formato rápido)
 
 ##
 ## 1. CONFIGURACIÓN DEL VIRTUAL BOX
