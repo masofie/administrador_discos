@@ -17,18 +17,18 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 
 - **Tareas :**
 
-    1. Comandos para crear el tipo de particiones 
+    Comandos para crear el tipo de particiones 
 
     - *create partition primary* (primaria)
     - *create partition extend* (extendida)
     - *create partition logical* (lógica)
 
-    2. Borrar particiones y vaciar disco duro 
+    Borrar particiones y vaciar disco duro 
 
     - *delete partition* (eliminar partición)
     - *celan disk (number)* (vaciar disco completo)
 
-    3. Especificaciones de las particiones y discos
+    Especificaciones de las particiones y discos
 
     - *formart* (formatear partición)
     - *assign letter=X* (asignar leta)
