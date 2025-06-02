@@ -14,7 +14,7 @@ linea de comados .
 
 ![Inicializando Disco Duro](./img_diskpart/virtualbox2.png)
 
-## 2. PARTICIONANDO DISCO *MBR* EN DISKPART
+## 2. PARTICIONANDO DISCO *"MBR"* EN DISKPART
 
 2.1 – Abrimos el terminal (cmd) de Windows y lo ejecutamos como administrador.
 
