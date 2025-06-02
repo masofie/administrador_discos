@@ -7,7 +7,6 @@ linea de comados .
 <br>
 
 - **Accder a Diskpart**
-<br>
 
 En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 
