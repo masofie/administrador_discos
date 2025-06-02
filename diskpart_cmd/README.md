@@ -8,7 +8,7 @@ Contenido
 - [Admistrador de Discos en Windows](./disk_unix/README.md)
 - [Terminal de Linux/Ubuntu](./cmd.unix/README.md)
 
-# DISKPART dddddd
+# DISKPART
 
 Es una herramienta integrada en Windows , donde podemos gestionar discos duros , particiones y volumes desde la
 linea de comados .
