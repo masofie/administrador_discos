@@ -40,7 +40,7 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 #
 
 
-
+##
 ## 1. CONFIGURACIÓN DEL VIRTUAL BOX
 
 1.1 Creamos un nuevo disco de 10GB y lo añadimos a nuestra máquina virtual 
