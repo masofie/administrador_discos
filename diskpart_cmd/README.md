@@ -21,7 +21,7 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
     - *list partition* (mostrar particiones)
     - *select partition* (seleccionar partición)
     <br>
-    
+
     - *list volume* (mostrar volumenes)
     - *select volume* (seleccionar volume)
 
@@ -128,3 +128,11 @@ Para que se vea en el terminal podemos ejecutar el comando **'volume'** ahí se 
 2.12 - Si queremos darle nombre la partición utilizamos el comando **'format'** y el tipo de formato que queremos . Si añadimos **quick** es para dar formato rápido 
 
 ![Formato de una partición](./img_diskpart/diskpart_13.png)
+
+2.13 Para ver la información completa de un disco utilizamos el comando **'detail'** y ahí podemos ver toda la infomación 
+
+![Información del disco](./img_diskpart/diskpart_14.png)
+
+2.14 Para dejar el disco limpio como en el principio usamos **'clean all'** así como se muestra en aquí debajo 
+
+![Lipiar Disco](./img_diskpart/diskpart_15.png)
