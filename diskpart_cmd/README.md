@@ -16,10 +16,10 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 
     - *list disk* (listar discos / mostrar discos)
     - *select disck* (seleccionar disco)
-
+    <br>
     - *list partition* (mostrar particiones)
     - *select partition* (seleccionar partición)
-    
+    <br>
     - *list volume* (mostrar volumenes)
     - *select volume* (seleccionar volume)
 
