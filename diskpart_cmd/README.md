@@ -35,11 +35,6 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
     - *assign letter=X* (asignar leta)
     - *covert gpt* (convertir disco a GPT)
 
-
-
-#
-
-
 ##
 ## 1. CONFIGURACIÓN DEL VIRTUAL BOX
 
@@ -52,6 +47,7 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 
 ![Inicializando Disco Duro](./img_diskpart/virtualbox2.png)
 
+##
 ## 2. PARTICIONANDO DISCO *"MBR"* EN DISKPART
 
 2.1 – Abrimos el terminal (cmd) de Windows y lo ejecutamos como administrador.
