@@ -1,6 +1,42 @@
 # DISKPART
 Es una herramienta integrada en Windows , donde podemos gestionar discos duros , particiones y volumes desde la
 linea de comados .
+<br>
+
+**Funcionamiento**
+<br>
+
+- **Accder a Diskpart**
+<br>
+
+En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
+
+- **Comandos Principales :**
+
+    - ***list disk*** (listar discos / mostrar discos)
+    - ***select disck*** (seleccionar disco)
+
+- **Tareas :**
+
+    Para crear las particiolnes
+
+    - ***create partition primary***
+    - ***create partition extend***
+    - ***create partition logical***
+
+    Borrar particiones o disco
+
+    - ***delete partition***
+    - ***celan disk (number)***
+
+    Formatos 
+
+    - ***formart***
+    - ***assign letter=X***
+    - ***covert gpt***
+
+
+
 #
 
 
