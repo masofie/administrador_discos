@@ -45,6 +45,8 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
     - *covert gpt* (convertir disco a GPT)
     - *label* (nombre de la partición)
     - *quick* (formato rápido)
+    - *clean all* (vaciar disco completo)
+    - *detail* (información del disco)
 
 ##
 ## 1. CONFIGURACIÓN DEL VIRTUAL BOX
