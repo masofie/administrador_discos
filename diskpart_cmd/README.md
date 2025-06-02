@@ -46,16 +46,28 @@ diskpart
 
 2.5 - Creamos 3 particiones igual , tenemos que tener 4 particiones primarias y un espacio libre 
 
+![Crear tres Particiones](./img_diskpart/diskpart_5.png)
+
 2.6 - Ahora intentamos crear otra partición primaria , como puedes ver no se puede .
+
+![Intentamos crear la particion 5](./img_diskpart/diskpart_6.png)
 
 2.7 -  Para solucionar el problema borramos la ultima partición creada con el comando **‘delete’** y como puedes ver en vez de formar dos particiones forma una sola que aumenta el espacio.
 
+![Eliminamos particion](./img_diskpart/diskpart_7.png)
+
 2.8 – Creamos una partición extendida con el espacio que queda , utilizando el comando **‘extend’** en ves de **‘primary’** así como se ve en la imagen .
+
+![Crear nueva particion extendida](./img_diskpart/diskpart_8.png)
 
 **‘Las particiones extendidas tienen dentro particiones lógicas , por eso dice que hay un espacio libre , aunque hay una partición creada . Cuando se crean las lógicas se llena la extendida’**
 
 
 2.9 – Luego creamos dos particiones lógicas con el comando **“logical”** y como podemos ver se ha creado correctamente las particiones .
 
+![Crear nuevas particiones logicas](./img_diskpart/diskpart_9.png)
+
 2.10 – Mostramos todas las particiones como podemos ver se han creado correctamente todos las particiones
+
+![Mostrado resultado complero de disco mbr](./img_diskpart/diskpart_10.png)
 
