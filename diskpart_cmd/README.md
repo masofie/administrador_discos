@@ -13,27 +13,27 @@ En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 
 - **Comandos Principales :**
 
-    - ***list disk*** (listar discos / mostrar discos)
-    - ***select disck*** (seleccionar disco)
+    - *list disk* (listar discos / mostrar discos)
+    - *select disck* (seleccionar disco)
 
 - **Tareas :**
 
     Para crear las particiolnes
 
-    - ***create partition primary***
-    - ***create partition extend***
-    - ***create partition logical***
+    - *create partition primary*
+    - *create partition extend*
+    - *create partition logical*
 
     Borrar particiones o disco
 
-    - ***delete partition***
-    - ***celan disk (number)***
+    - *delete partition*
+    - *celan disk (number)*
 
     Formatos 
 
-    - ***formart***
-    - ***assign letter=X***
-    - ***covert gpt***
+    - *formart*
+    - *assign letter=X*
+    - *covert gpt*
 
 
 
