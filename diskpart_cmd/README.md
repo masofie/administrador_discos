@@ -7,7 +7,12 @@ linea de comados .
 
 1.1 Creamos un nuevo disco de 10GB y lo añadimos a nuestra máquina virtual 
 
+![Añadiendo Disco Duro](./img_diskpart/diskpart_1.png)
+
+
 1.2 Iniciamos Windows , vamos al administrador de discos e inicializamos el disco , a formato **MBR** .
+
+![Inicializando Disco Duro](./img_diskpart/diskpart_2.png)
 
 ## 2. PARTICIONANDO DISCO MBR EN DISKPART
 
