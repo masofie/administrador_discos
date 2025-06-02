@@ -4,7 +4,7 @@ Administrar Discos en Windows y Linux
 
 Contenido 
 - [Administrador de Discos en Windows](./disk_w/README.md)
-- [Diskpart (cmd)](./cdm_w/README.md)
+- [Diskpart (cmd)](./diskpart_cmd/README.md)
 - [Admistrador de Discos en Windows](./disk_unix/README.md)
 - [Terminal de Linux/Ubuntu](./cmd.unix/README.md)
 
