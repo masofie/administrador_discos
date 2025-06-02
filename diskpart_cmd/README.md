@@ -1,8 +1,10 @@
 #
 # DISKPART
-Es una herramienta integrada en Windows , donde podemos gestionar discos duros , particiones y volumes desde la
-linea de comados .
-<br>
+Es una herramienta integrada en Windows que se usa escribiendo comandos . 
+Sirve para administrat discos duros , memorias USB y otras unidades .
+Con ella puedes borrar , crear o cambiar particiones (que son como divisiones dentro de un disco) .
+
+Eso sí hay que tener cuidado al usarla , porque puede borrar todo el contenido de un disco si no se usa bien .
 
 
 **Funcionamiento**
