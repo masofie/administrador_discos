@@ -1,13 +1,3 @@
-# ADMINISTRACIÓN DE DISCOS 
-Administrar Discos en Windows y Linux 
-
-
-Contenido 
-- [Administrador de Discos en Windows](./disk_w/README.md)
-- [Diskpart (cmd)](./cdm_w/README.md)
-- [Admistrador de Discos en Windows](./disk_unix/README.md)
-- [Terminal de Linux/Ubuntu](./cmd.unix/README.md)
-
 # DISKPART
 
 Es una herramienta integrada en Windows , donde podemos gestionar discos duros , particiones y volumes desde la
