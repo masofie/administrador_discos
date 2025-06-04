@@ -35,7 +35,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
 <br>
 
-Este material forma parte de una serie de guías 📃 técnicas . Si te sirvio no olvides checar los proximos temas que estaré subiendo ✌️. 
+Este material forma parte de una serie de guías 📃 técnicas . Si te sirvio no olvides checar los proximos temas que estaré subiendo ✌️. <br> 
 Gracias por tu apoyo , recurda dejar tu ⭐
 
 <br>
