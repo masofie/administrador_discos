@@ -33,7 +33,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
    - :white_check_mark: *Soporta discos grandes (más de 2TB)*
    - :white_check_mark:*Más seguro y moderno* 
-   - :x: * **UEFI** para arrancar algunos sistemas*  
+   - :x: *Require **UEFI** para arrancar algunos sistemas*  
 
 <br>
 
