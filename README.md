@@ -28,8 +28,8 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
    - *Cada partición es primaria* 
 
-   - *Soporta discos grandes (más de 2TB)*
-   - *Más seguro y moderno* 
+   - :heavy_check_mark: *Soporta discos grandes (más de 2TB)*
+   - :heavy_check_mark:*Más seguro y moderno* 
    - :x:*Requiere **UEFI** para arrancar algunos sistemas*  
 
 <br>
