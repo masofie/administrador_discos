@@ -18,7 +18,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
    - *Dentro de la extendida puedes tener particiones lógicas (varias)*
  
    - :white_check_mark:*Compatibles con sistemas más antiguos*
-   - :x:*Requiere *Límite de tamaño por partición: 2TB*
+   - :x:*Límite de tamaño por partición: 2TB*
 
 
 **GPT (GUID Partition Table)**
@@ -33,7 +33,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
    - :white_check_mark: *Soporta discos grandes (más de 2TB)*
    - :white_check_mark:*Más seguro y moderno* 
-   - :x:*Requiere **UEFI** para arrancar algunos sistemas*  
+   - :x: **UEFI** para arrancar algunos sistemas*  
 
 <br>
 
