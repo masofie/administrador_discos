@@ -15,7 +15,10 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 - **Partición Extendida** 
 
    - *Se crea para poder tener más de 4 particiones*
-   - *Dentro de la extendida puedes tener particiones lógicas (varias)*  
+   - *Dentro de la extendida puedes tener particiones lógicas (varias)*
+ 
+   - :heavy_check_mark*Compatibles con sistemas más antiguos*
+   - :x:*Requiere*Límite de tamaño por partición:2TB*
 
 
 **GPT (GUID Partition Table)**
