@@ -18,7 +18,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
    - *Dentro de la extendida puedes tener particiones lógicas (varias)*  
 
 
-- **GPT (GUID Partition Table)**
+**GPT (GUID Partition Table)**
 
 - **Límite de Particiones :**
 
