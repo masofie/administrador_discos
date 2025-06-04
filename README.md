@@ -17,7 +17,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
    - *Se crea para poder tener más de 4 particiones*
    - *Dentro de la extendida puedes tener particiones lógicas (varias)*
  
-   - :heavy_check_mark:*Compatibles con sistemas más antiguos*
+   - :white_check_mark:*Compatibles con sistemas más antiguos*
    - :x:*Requiere*Límite de tamaño por partición:2TB*
 
 
@@ -31,8 +31,8 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
    - *Cada partición es primaria* 
 
-   - :heavy_check_mark: *Soporta discos grandes (más de 2TB)*
-   - :heavy_check_mark:*Más seguro y moderno* 
+   - :white_check_mark: *Soporta discos grandes (más de 2TB)*
+   - :white_check_mark:*Más seguro y moderno* 
    - :x:*Requiere **UEFI** para arrancar algunos sistemas*  
 
 <br>
