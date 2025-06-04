@@ -1,7 +1,7 @@
 # ADMINISTRACIÓN DE DISCOS 
 <br>
 
-Administrar Discos en Windows y Linux . En este tema vamos a preder a gestionar , crear , borrar particiones en los fiscos duros 
+Administrar Discos en Windows y Linux . En este tema vamos aprender a gestionar , crear , borrar particiones en los fiscos duros 
 dandole formato a cada una de ellas y entendido muy bien su funcionamiento básico tanto en **Linux** como en **Windows**. 
 
 <br>
