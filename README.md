@@ -35,7 +35,8 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
 <br>
 
-Espero que esto te sirva de guia para tus proyectos :+1: . Recuerda seguirme , para subir más contenido :ok_hand:
+Este material forma parte de una serie de guías 📃 técnicas . Si te sirvio no olvides checar los proximos temas que estaré subiendo ✌️. 
+Gracias por tu apoyo , recurda dejar tu ⭐
 
 <br>
 
