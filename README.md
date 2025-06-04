@@ -30,7 +30,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
    - *Soporta discos grandes (más de 2TB)*
    - *Más seguro y moderno* 
-   - *Requiere **UEFI** para arrancar algunos sistemas*  
+   - :x:*Requiere **UEFI** para arrancar algunos sistemas*  
 
 <br>
 
