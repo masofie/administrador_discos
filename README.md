@@ -26,9 +26,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 - **Límite de Particiones :**
 
    - *Hasta 128 particiones primarias (no se necesitan ni extendidas ni lógicas )*
-
    - *No usa particiones extendidas ni lógicas*
-
    - *Cada partición es primaria* 
 
    - :white_check_mark: *Soporta discos grandes (más de 2TB)*
