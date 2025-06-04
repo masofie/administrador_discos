@@ -18,7 +18,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
    - *Dentro de la extendida puedes tener particiones lógicas (varias)*
  
    - :white_check_mark:*Compatibles con sistemas más antiguos*
-   - :x:*Requiere*Límite de tamaño por partición: 2TB*
+   - :x:*Requiere *Límite de tamaño por partición: 2TB*
 
 
 **GPT (GUID Partition Table)**
