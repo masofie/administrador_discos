@@ -6,7 +6,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
 <br>
 
-**MBR (Master Boot Record)**
+:pushpin: **MBR (Master Boot Record)**
 
 - **Limite de Particiones :**
   - *Máximo 4 particiones primarias*
@@ -21,7 +21,7 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
    - :x:*Límite de tamaño por partición: 2TB*
 
 
-**GPT (GUID Partition Table)**
+:pushpin: **GPT (GUID Partition Table)**
 
 - **Límite de Particiones :**
 
