@@ -6,6 +6,35 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 
 <br>
 
+**MBR (Master Boot Record)**
+
+**Limite de Particiones :**
+
+    • Máximo 4 particiones primarias 
+    • O 3 particiones primarias y una extendida 
+      
+**Partición Extendida** 
+
+    • Se crea para poder tener más de 4 particiones
+    • Dentro de la extendida puedes tener particiones lógicas (varias)  
+
+
+**GPT (GUID Partition Table)**
+
+**Límite de Particiones :**
+
+    • Hasta 128 particiones primarias (no se necesitan ni extendidas ni lógicas )
+
+    • No usa particiones extendidas ni lógicas .
+
+    • Cada partición es primaria 
+
+    • Soporta discos grandes (más de 2TB)
+    • Más seguro y moderno 
+    • Requiere UEFI para arrancar algunos sistemas  
+
+<br>
+
 Espero que esto te sirva de guia para tus proyectos :+1: . Recuerda seguirme , para subir más contenido :ok_hand:
 
 <br>
