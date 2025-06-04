@@ -9,10 +9,8 @@ dandole formato a cada una de ellas y entendido muy bien su funcionamiento bási
 **MBR (Master Boot Record)**
 
 **Limite de Particiones :**
-
- - *list disk* (listar discos / mostrar discos)
-    - Máximo 4 particiones primarias 
-    - O 3 particiones primarias y una extendida 
+ - *Máximo 4 particiones primarias*
+ - *O 3 particiones primarias y una extendida* 
       
 **Partición Extendida** 
 
