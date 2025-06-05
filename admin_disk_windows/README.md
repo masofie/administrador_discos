@@ -1,5 +1,22 @@
-# 💽 Administrador de Discos en Windowws
+# 📁 **Administrador de discos en Windows**
 
+<br>
+En esta sección aprenderemos a utilizar la herramienta gráfica Administrador de discos que viene integrada en Windows. Veremos cómo:
+
+  - 💻 Visualizar discos y particiones existentes
+
+  - 🆕 Crear, formatear y eliminar particiones fácilmente
+
+  - 🔄 Cambiar letras de unidad y gestionar volúmenes
+
+  - 📊 Interpretar la información básica del disco y solucionar problemas comunes
+
+Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de usar comandos, facilitando la gestión segura de los discos en Windows.
+
+<br>
+
+##
+## PARTICIONANDO DISCOS
 
 
 1 - Añadimos un disco nuevo y lo inicializamos el el administrador de discos le damos formato MBR
@@ -28,3 +45,5 @@
 6 - Como podemos ver la partición se ha creado correctamente en el disco 
 
 ![Partición Creada](./img/admin_disk_6.png)
+
+.......................
