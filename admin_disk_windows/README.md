@@ -47,6 +47,11 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 ![Partición Creada](./img/admin_disk_6.png)
 
 
+7 - Creamos tres particiones más del mismo tamaño . Ahora  creamos una nueva partición , como podemos ver nos crea una partición extendida y luego la lógica .
+
+Esto pasa porque en un disco MBR no pueden haber mas de 3 particiones primarias 
+
+
 <br>
 
 ⚠️ **Consejo importante:**
