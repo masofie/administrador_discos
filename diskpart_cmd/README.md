@@ -11,7 +11,7 @@ Con diskpart puedes crear, eliminar o modificar particiones (las divisiones inte
 ⚙️ **Funcionamiento de `diskpart`**
 <br>
 
-- **Accder a Diskpart**
+- 🧭 **Acceder a `diskpart`**
 
 En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 
