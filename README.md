@@ -3,35 +3,33 @@
 
 Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremos cómo crear, borrar y formatear particiones en discos duros, comprendiendo su funcionamiento básico y las diferencias entre ambos sistemas operativos.
  
+---
 
-<br>
+## 📌 MBR (Master Boot Record)
 
-:pushpin: **MBR (Master Boot Record)**
+**Límites de partición:**
+- Máximo de *4 particiones primarias*, o  
+- *3 primarias + 1 extendida* (donde puedes crear varias particiones lógicas)
 
-- **Limite de Particiones :**
-  - *Máximo 4 particiones primarias*
-  - *O 3 particiones primarias y una extendida* 
-      
-- **Partición Extendida** 
+**Características:**
+- ✅ Compatibilidad con sistemas antiguos  
+- ❌ Límite de tamaño por partición: *2 TB*
 
-   - *Se crea para poder tener más de 4 particiones*
-   - *Dentro de la extendida puedes tener particiones lógicas (varias)*
- 
-   - :white_check_mark:*Compatibles con sistemas más antiguos*
-   - :x:*Límite de tamaño por partición: 2TB*
+---
 
+## 📌 GPT (GUID Partition Table)
 
-:pushpin: **GPT (GUID Partition Table)**
+**Límites de partición:**
+- Hasta *128 particiones primarias*
+- No requiere particiones extendidas ni lógicas
 
-- **Límite de Particiones :**
+**Características:**
+- ✅ Soporte para discos de más de *2 TB*  
+- ✅ Más moderno y seguro  
+- ❌ Requiere *UEFI* para arrancar en algunos sistemas
 
-   - *Hasta 128 particiones primarias (no se necesitan ni extendidas ni lógicas )*
-   - *No usa particiones extendidas ni lógicas*
-   - *Cada partición es primaria* 
+---
 
-   - :white_check_mark: *Soporta discos grandes (más de 2TB)*
-   - :white_check_mark:*Más seguro y moderno* 
-   - :x: *Requiere **UEFI** para arrancar algunos sistemas*  
 
 <br>
 
