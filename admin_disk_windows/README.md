@@ -51,6 +51,8 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 
 Esto pasa porque en un disco MBR no pueden haber mas de 3 particiones primarias 
 
+![Partición nueva extendia](./img/admin_disk_7.png)
+
 
 <br>
 
