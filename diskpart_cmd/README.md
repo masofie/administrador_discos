@@ -13,7 +13,10 @@ Con diskpart puedes crear, eliminar o modificar particiones (las divisiones inte
 
 - 🧭 **Acceder a `diskpart`**
 
-En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
+Puedes abrir `diskpart` desde el menú de búsqueda de *Windows*.  
+Escribe **"Símbolo del sistema"** o **"cmd"**, haz clic derecho y selecciona *"Ejecutar como administrador"*.  
+Luego, escribe `diskpart` y presiona *Enter* para iniciar la herramienta.
+
 
 - **Comandos Principales :**
 
