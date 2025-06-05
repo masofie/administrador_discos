@@ -43,11 +43,11 @@ select volume X     # Seleccionar volumen
 
   - Eliminar y limpiar
 
-~~~
-delete partition           # Eliminar la partición seleccionada
-clean                      # Borrar todo el contenido del disco seleccionado
-clean all                  # Borrado completo (más profundo)
-~~~
+  ~~~
+  delete partition           # Eliminar la partición seleccionada
+  clean                      # Borrar todo el contenido del disco seleccionado
+  clean all                  # Borrado completo (más profundo)
+  ~~~
 
 
 
