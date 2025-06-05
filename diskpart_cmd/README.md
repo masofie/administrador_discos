@@ -2,7 +2,6 @@
 # 🛠️ DISKPART
 
 **DISKPART** es una herramienta integrada en Windows que se utiliza desde la línea de comandos. Permite administrar discos duros, memorias **USB** y otras unidades de almacenamiento.
-
 Con diskpart puedes crear, eliminar o modificar particiones (las divisiones internas de un disco).
 
 ⚠️ ¡Importante! Hay que tener mucho cuidado al usarla, ya que un mal comando puede borrar toda la información de un disco.
