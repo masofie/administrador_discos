@@ -1,4 +1,16 @@
-# 💽 Administrador de Discos en Windowws
+📁 **Administrador de discos en Windows**
+
+En esta sección aprenderemos a utilizar la herramienta gráfica Administrador de discos que viene integrada en Windows. Veremos cómo:
+
+    💻 Visualizar discos y particiones existentes
+
+    🆕 Crear, formatear y eliminar particiones fácilmente
+
+    🔄 Cambiar letras de unidad y gestionar volúmenes
+
+    📊 Interpretar la información básica del disco y solucionar problemas comunes
+
+Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de usar comandos, facilitando la gestión segura de los discos en Windows.
 
 
 
