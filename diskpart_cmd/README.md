@@ -30,17 +30,6 @@ list volume         # Mostrar volúmenes
 select volume X     # Seleccionar volumen
 ~~~
 
-    - *list disk* (listar discos / mostrar discos)
-    - *select disck* (seleccionar disco)
-    <br>
-
-    - *list partition* (mostrar particiones)
-    - *select partition* (seleccionar partición)
-    <br>
-
-    - *list volume* (mostrar volumenes)
-    - *select volume* (seleccionar volume)
-
 - **Tareas :**
 
     Comandos para crear el tipo de particiones 
