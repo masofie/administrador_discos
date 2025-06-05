@@ -1,4 +1,4 @@
-# 🖥️💽🗂️ **Administrador de discos en Windows**
+# 🖥️💽🗂️ **ADMINISTRADOR DE DISCOS EN WINDOWS**
 
 <br>
 En esta sección aprenderemos a utilizar la herramienta gráfica Administrador de discos que viene integrada en Windows. Veremos cómo:
