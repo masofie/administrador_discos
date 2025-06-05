@@ -3,7 +3,7 @@
 
 Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremos cómo crear, borrar y formatear particiones en discos duros, comprendiendo su funcionamiento básico y las diferencias entre ambos sistemas operativos.
  
-## 📌 MBR (Master Boot Record)
+📌 MBR (Master Boot Record)
 
 **Límites de partición:**
 - Máximo de *4 particiones primarias*, o  
@@ -14,7 +14,7 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 - ❌ Límite de tamaño por partición: *2 TB*
 
 
-## 📌 GPT (GUID Partition Table)
+📌 GPT (GUID Partition Table)
 
 **Límites de partición:**
 - Hasta *128 particiones primarias*
