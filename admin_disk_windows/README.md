@@ -71,3 +71,5 @@ Esto pasa porque en un disco MBR no pueden haber mas de 3 particiones primarias
 
 ⚠️ **Consejo importante:**
 > Antes de modificar particiones en discos MBR, asegúrate de hacer una copia de seguridad de tus datos. Recuerda que MBR tiene un límite de 4 particiones primarias, así que planifica bien tu esquema para evitar problemas. ¡Practica en discos de prueba si es posible! 💾🔧
+
+Fíjate que debajo del disco te muestra de que tipo son las particiones según su color . Por si te pierdes y verificas lo que tienes
