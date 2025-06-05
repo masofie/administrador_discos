@@ -18,17 +18,17 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
 
 - **Comandos Principales :**
 
-~~~
-bash
-list disk           # Listar todos los discos disponibles
-select disk X       # Seleccionar disco (reemplaza X por el número del disco)
+  ~~~
+  bash
+  list disk           # Listar todos los discos disponibles
+  select disk X       # Seleccionar disco (reemplaza X por el número del disco)
 
-list partition      # Mostrar particiones del disco seleccionado
-select partition X  # Seleccionar partición
+  list partition      # Mostrar particiones del disco seleccionado
+  select partition X  # Seleccionar partición
 
-list volume         # Mostrar volúmenes
-select volume X     # Seleccionar volumen
-~~~
+  list volume         # Mostrar volúmenes
+  select volume X     # Seleccionar volumen
+  ~~~
 
 - 🛠️ **Tareas Comunes**
 
