@@ -38,7 +38,7 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 <br>
 📂 Contenido
 
-- [Administrador de Discos en Windows](./disk_w/README.md)
+- [Administrador de Discos en Windows](./admin_disk_windows/README.md)
 - [Diskpart (cmd)](./diskpart_cmd/README.md)
 - [Admistrador de Discos en Windows](./disk_unix/README.md)
 - [Terminal de Linux/Ubuntu](./cmd.unix/README.md)
