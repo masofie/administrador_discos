@@ -152,3 +152,8 @@ Para que se vea en el terminal podemos ejecutar el comando **'volume'** ahí se 
 2.14 Para dejar el disco limpio como en el principio usamos **'clean all'** así como se muestra en aquí debajo 
 
 ![Lipiar Disco](./img_diskpart/diskpart_15.png)
+
+<br>
+
+💡 **Recuerda:** La práctica es clave para dominar diskpart. Siempre prueba en un entorno controlado antes de hacer cambios en discos reales.
+
