@@ -1,35 +1,25 @@
 #
 # 🛠️ DISKPART
 
-**DISKPART** es una herramienta integrada en *Windows* que se utiliza desde la línea de comandos. Permite administrar discos duros, memorias **USB** y otras unidades de almacenamiento.
+**Funcionamiento**
+<br>
 
-Con diskpart puedes crear, eliminar o modificar particiones (las divisiones internas de un disco).
+- **Accder a Diskpart**
 
-⚠️ **¡Importante!** Hay que tener mucho cuidado al usarla, ya que un mal comando puede borrar toda la información de un disco.
+En el menú de busqueda podemos o símbolo de sistemas abrimos la herramienta .
 
+- **Comandos Principales :**
 
-⚙️ Funcionamiento de `diskpart`
+    - *list disk* (listar discos / mostrar discos)
+    - *select disck* (seleccionar disco)
+    <br>
 
-🧭 Acceder a `diskpart`
+    - *list partition* (mostrar particiones)
+    - *select partition* (seleccionar partición)
+    <br>
 
-Puedes abrir `diskpart` desde el menú de búsqueda de *Windows*.  
-Escribe **"Símbolo del sistema"** o **"cmd"**, haz clic derecho y selecciona *"Ejecutar como administrador"*.  
-Luego, escribe `diskpart` y presiona *Enter* para iniciar la herramienta.
-
----
-
-💡 Comandos principales
-
-```bash
-list disk           # Listar todos los discos disponibles
-select disk X       # Seleccionar disco (reemplaza X por el número del disco)
-
-list partition      # Mostrar particiones del disco seleccionado
-select partition X  # Seleccionar partición
-
-list volume         # Mostrar volúmenes
-select volume X     # Seleccionar volumen
-
+    - *list volume* (mostrar volumenes)
+    - *select volume* (seleccionar volume)
 
 - **Tareas :**
 
