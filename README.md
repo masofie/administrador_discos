@@ -10,20 +10,20 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
   - *3 primarias + 1 extendida (donde puedes crear varias particiones lógicas)*
 
 - **Características:**
- - ✅ *Compatibilidad con sistemas antiguos*  
- - ❌ *Límite de tamaño por partición: *2 TB*
+  - ✅ *Compatibilidad con sistemas antiguos*  
+  - ❌ *Límite de tamaño por partición: *2 TB*
 
 
 📌 **GPT (GUID Partition Table**
 
 - **Límites de partición:**
- - *Hasta *128 particiones primarias*
- - *No requiere particiones extendidas ni lógicas*
+  - *Hasta *128 particiones primarias*
+  - *No requiere particiones extendidas ni lógicas*
 
 - **Características:**
- - ✅ *Soporte para discos de más de *2 TB*  
- - ✅ *Más moderno y seguro*  
- - ❌ *Requiere *UEFI* para arrancar en algunos sistemas*
+  - ✅ *Soporte para discos de más de *2 TB*  
+  - ✅ *Más moderno y seguro*  
+  - ❌ *Requiere *UEFI* para arrancar en algunos sistemas*
 
 
 <br>
