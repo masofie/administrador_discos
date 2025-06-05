@@ -60,28 +60,6 @@ select volume X     # Seleccionar volumen
   detail disk                  # Ver información detallada del disco
   ~~~
     
-
-
-
-    - *create partition primary* (primaria)
-    - *create partition extend* (extendida)
-    - *create partition logical* (lógica)
-
-    Borrar particiones y vaciar disco duro 
-
-    - *delete partition* (eliminar partición)
-    - *celan disk (number)* (vaciar disco completo)
-
-    Especificaciones de las particiones y discos
-
-    - *formart* (formatear partición con NTFS o FAT32)
-    - *assign letter=X* (asignar leta)
-    - *covert gpt* (convertir disco a GPT)
-    - *label* (nombre de la partición)
-    - *quick* (formato rápido)
-    - *clean all* (vaciar disco completo)
-    - *detail* (información del disco)
-
 ##
 ## 1. CONFIGURACIÓN DEL VIRTUAL BOX
 
