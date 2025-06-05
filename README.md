@@ -6,7 +6,7 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 📌 **MBR (Master Boot Record)**
 
 - **Límites de partición:**
-  - *Máximo de *4 particiones primarias*
+  - *Máximo de 4 particiones primarias*
   - *3 primarias + 1 extendida* (donde puedes crear varias particiones lógicas)*
 
 - **Características:**
