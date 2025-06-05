@@ -26,12 +26,14 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 - ❌ Requiere *UEFI* para arrancar en algunos sistemas
 
 
-
 <br>
 
-  Este material forma parte de una serie de guías 📃 técnicas . <br> 
-  Si te sirvio no olvides checar los proximos temas que estaré subiendo ✌️. <br> 
-  Gracias por tu apoyo , recurda dejar tu ⭐
+📚 *Este material forma parte de una serie de guías técnicas.*
+
+Si te fue útil, no olvides revisar los próximos temas que estaré subiendo ✌️  
+¡Gracias por tu apoyo! Y recuerda dejar tu ⭐ si te gustó este contenido.
+
+
 
 <br>
 
