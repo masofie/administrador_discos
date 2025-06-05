@@ -30,7 +30,16 @@ list volume         # Mostrar volúmenes
 select volume X     # Seleccionar volumen
 ~~~
 
-- **Tareas :**
+- 🛠️ **Tareas Comunes**
+
+      Crear Particiones
+  
+  ~~~
+  create partition primary     # Crear partición primaria
+  create partition extended    # Crear partición extendida
+  create partition logical     # Crear partición lógica
+   ~~~
+  
 
     Comandos para crear el tipo de particiones 
 
