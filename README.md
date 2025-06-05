@@ -11,17 +11,17 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 
 - **Características:**
   - ✅ *Compatibilidad con sistemas antiguos*  
-  - ❌ *Límite de tamaño por partición: *2 TB*
+  - ❌ *Límite de tamaño por partición: 2TB*
 
 
 📌 **GPT (GUID Partition Table**
 
 - **Límites de partición:**
-  - *Hasta *128 particiones primarias*
+  - *Hasta 128 particiones primarias*
   - *No requiere particiones extendidas ni lógicas*
 
 - **Características:**
-  - ✅ *Soporte para discos de más de *2 TB*  
+  - ✅ *Soporte para discos de más de 2TB*  
   - ✅ *Más moderno y seguro*  
   - ❌ *Requiere *UEFI* para arrancar en algunos sistemas*
 
