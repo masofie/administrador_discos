@@ -1,5 +1,5 @@
 #
-# 🛠️ DISKPART
+# 💽 DISKPART
 
 <br>
 
@@ -16,7 +16,7 @@ Con diskpart puedes crear, eliminar o modificar particiones (las divisiones inte
 Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Símbolo del sistema"** o **"cmd"**, haz clic derecho y selecciona **"Ejecutar como administrador"**.  Luego, escribe diskpart y presiona *Enter* para iniciar la herramienta.
 
 
-- **Comandos Principales :**
+- 💡 **Comandos Principales :**
 
   ~~~
   bash
