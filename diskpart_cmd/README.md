@@ -1,5 +1,5 @@
 #
-# 💽 DISKPART
+# 💽🖥️🛠️ DISKPART
 
 <br>
 
@@ -32,7 +32,7 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
 
 - 🛠️ **Tareas Comunes**
 
-  - Crear Particiones
+  - 🪚 Crear Particiones
   
   ~~~
   create partition primary     # Crear partición primaria
@@ -41,7 +41,7 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
   ~~~
   
 
-  - Eliminar y limpiar
+  - 🧹 Eliminar y limpiar
 
   ~~~
   delete partition           # Eliminar la partición seleccionada
@@ -49,7 +49,7 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
   clean all                  # Borrado completo (más profundo)
   ~~~
 
-  - Configurar particiones/discos
+  - ⚙️ Configurar particiones/discos
     
   ~~~
   format fs=ntfs quick         # Formatear partición como NTFS (rápido)
