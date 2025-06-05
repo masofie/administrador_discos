@@ -1,5 +1,5 @@
 #
-# DISKPART
+# 🛠️ DISKPART
 Es una herramienta integrada en Windows que se usa escribiendo comandos . 
 Sirve para administrat discos duros , memorias USB y otras unidades .
 Con ella puedes borrar , crear o cambiar particiones (que son como divisiones dentro de un disco) .
