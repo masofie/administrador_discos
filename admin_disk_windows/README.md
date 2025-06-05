@@ -16,7 +16,7 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 <br>
 
 ##
-## PARTICIONANDO DISCOS
+## 📀🧱 PARTICIONANDO DISCOS MBR
 
 
 1 - Añadimos un disco nuevo y lo inicializamos el el administrador de discos le damos formato MBR
@@ -46,4 +46,3 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 
 ![Partición Creada](./img/admin_disk_6.png)
 
-.......................g
