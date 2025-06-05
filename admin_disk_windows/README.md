@@ -46,4 +46,4 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 
 ![Partición Creada](./img/admin_disk_6.png)
 
-.......................
+.......................g
