@@ -7,7 +7,7 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 
 - **Límites de partición:**
   - *Máximo de 4 particiones primarias*
-  - *3 primarias + 1 extendida* (donde puedes crear varias particiones lógicas)*
+  - *3 primarias + 1 extendida (donde puedes crear varias particiones lógicas)*
 
 - **Características:**
  - ✅ *Compatibilidad con sistemas antiguos*  
