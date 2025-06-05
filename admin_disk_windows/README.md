@@ -2,16 +2,20 @@
 
 En esta sección aprenderemos a utilizar la herramienta gráfica Administrador de discos que viene integrada en Windows. Veremos cómo:
 
-💻 Visualizar discos y particiones existentes
+  - 💻 Visualizar discos y particiones existentes
 
-🆕 Crear, formatear y eliminar particiones fácilmente
+  - 🆕 Crear, formatear y eliminar particiones fácilmente
 
-🔄 Cambiar letras de unidad y gestionar volúmenes
+  - 🔄 Cambiar letras de unidad y gestionar volúmenes
 
-📊 Interpretar la información básica del disco y solucionar problemas comunes
+  - 📊 Interpretar la información básica del disco y solucionar problemas comunes
 
 Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de usar comandos, facilitando la gestión segura de los discos en Windows.
 
+<br>
+
+##
+## PARTICIONANDO DISCOS
 
 
 1 - Añadimos un disco nuevo y lo inicializamos el el administrador de discos le damos formato MBR
