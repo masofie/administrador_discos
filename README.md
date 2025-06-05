@@ -3,8 +3,6 @@
 
 Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremos cómo crear, borrar y formatear particiones en discos duros, comprendiendo su funcionamiento básico y las diferencias entre ambos sistemas operativos.
  
----
-
 ## 📌 MBR (Master Boot Record)
 
 **Límites de partición:**
@@ -15,7 +13,6 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 - ✅ Compatibilidad con sistemas antiguos  
 - ❌ Límite de tamaño por partición: *2 TB*
 
----
 
 ## 📌 GPT (GUID Partition Table)
 
@@ -28,7 +25,6 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 - ✅ Más moderno y seguro  
 - ❌ Requiere *UEFI* para arrancar en algunos sistemas
 
----
 
 
 <br>
