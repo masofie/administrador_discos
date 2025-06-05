@@ -53,6 +53,19 @@ Esto pasa porque en un disco MBR no pueden haber mas de 3 particiones primarias
 
 ![Partición nueva extendia](./img/admin_disk_7.png)
 
+8 – Hacemos una prueba eliminando la partición lógica que creamos de  la siguiente manera 
+
+![Eliminando Partición](./img/admin_disk_8.png)
+
+
+9 – Como podemos ver nos queda un espacio libre , con color verde nos muestra si esta vacía .
+
+![Resultado de eliminación](./img/admin_disk_9.png)
+
+
+10 - Ahora nos deja la partición extendida solamente dentro de esa creamos dos particiones nuevas que son particiones lógicas . Debe verse así de esta manera 
+
+![Disco particionado](./img/admin_disk_10.png)
 
 <br>
 
