@@ -38,10 +38,16 @@ select volume X     # Seleccionar volumen
   create partition primary     # Crear partición primaria
   create partition extended    # Crear partición extendida
   create partition logical     # Crear partición lógica
-   ~~~
+  ~~~
   
 
-    Comandos para crear el tipo de particiones 
+        Eliminar y limpiar
+
+~~~
+delete partition           # Eliminar la partición seleccionada
+clean                      # Borrar todo el contenido del disco seleccionado
+clean all                  # Borrado completo (más profundo)
+~~~
 
     - *create partition primary* (primaria)
     - *create partition extend* (extendida)
