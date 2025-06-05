@@ -1,5 +1,5 @@
 #
-# 💽🖥️🛠️ DISKPART
+# 💽📟🛠️ DISKPART
 
 <br>
 
