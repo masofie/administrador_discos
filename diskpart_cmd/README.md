@@ -8,7 +8,7 @@ Con diskpart puedes crear, eliminar o modificar particiones (las divisiones inte
 
 ⚠️ ¡Importante! Hay que tener mucho cuidado al usarla, ya que un mal comando puede borrar toda la información de un disco.
 
-**Funcionamiento**
+⚙️ **Funcionamiento de `diskpart`**
 <br>
 
 - **Accder a Diskpart**
