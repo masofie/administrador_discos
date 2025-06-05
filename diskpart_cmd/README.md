@@ -49,6 +49,18 @@ select volume X     # Seleccionar volumen
   clean all                  # Borrado completo (más profundo)
   ~~~
 
+  - Configurar particiones/discos
+    
+  ~~~
+  format fs=ntfs quick         # Formatear partición como NTFS (rápido)
+  format fs=fat32 quick        # Formatear como FAT32 (rápido)
+  assign letter=X              # Asignar letra de unidad (reemplaza X)
+  label=Nombre                 # Establecer nombre de la partición
+  convert gpt                  # Convertir disco a GPT
+  detail disk                  # Ver información detallada del disco
+  ~~~
+    
+
 
 
     - *create partition primary* (primaria)
