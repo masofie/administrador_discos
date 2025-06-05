@@ -159,6 +159,3 @@ Para que se vea en el terminal podemos ejecutar el comando **'volume'** ahí se 
 > 🔐 Ejecuta `diskpart` como *Administrador* para evitar restricciones de permisos.  
 > ⚠️ Verifica siempre el **número de disco** antes de aplicar cambios irreversibles.  
 > 💻 Practica en una VM y repite los comandos para ganar confianza. 💪
-<br>
-
-                MASOFIE RODRIGUEZ
