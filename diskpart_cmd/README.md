@@ -8,9 +8,9 @@ Con diskpart puedes crear, eliminar o modificar particiones (las divisiones inte
 ⚠️ **¡Importante!** Hay que tener mucho cuidado al usarla, ya que un mal comando puede borrar toda la información de un disco.
 
 
-## ⚙️ Funcionamiento de `diskpart`
+⚙️ Funcionamiento de `diskpart`
 
-### 🧭 Acceder a `diskpart`
+🧭 Acceder a `diskpart`
 
 Puedes abrir `diskpart` desde el menú de búsqueda de *Windows*.  
 Escribe **"Símbolo del sistema"** o **"cmd"**, haz clic derecho y selecciona *"Ejecutar como administrador"*.  
@@ -18,7 +18,7 @@ Luego, escribe `diskpart` y presiona *Enter* para iniciar la herramienta.
 
 ---
 
-### 💡 Comandos principales
+💡 Comandos principales
 
 ```bash
 list disk           # Listar todos los discos disponibles
