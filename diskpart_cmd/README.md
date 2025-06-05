@@ -32,7 +32,7 @@ select volume X     # Seleccionar volumen
 
 - 🛠️ **Tareas Comunes**
 
-      Crear Particiones
+  - Crear Particiones
   
   ~~~
   create partition primary     # Crear partición primaria
@@ -41,7 +41,7 @@ select volume X     # Seleccionar volumen
   ~~~
   
 
-      Eliminar y limpiar
+  - Eliminar y limpiar
 
 ~~~
 delete partition           # Eliminar la partición seleccionada
