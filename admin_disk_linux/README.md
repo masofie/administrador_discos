@@ -18,9 +18,9 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual sencilla, p
 ##
 
 
-> 🧠 **Consejo final:**
+🧠 **Consejo final:**
 
-Aunque la herramienta gráfica Discos es muy intuitiva, haz siempre una copia de seguridad antes de modificar particiones. 💾
+> Aunque la herramienta gráfica Discos es muy intuitiva, haz siempre una copia de seguridad antes de modificar particiones. 💾
 
   - 🔐 Algunas funciones requieren privilegios de administrador (te pedirá tu contraseña).
 
@@ -28,5 +28,5 @@ Aunque la herramienta gráfica Discos es muy intuitiva, haz siempre una copia de
 
   - 🧪 Practica en un disco externo o máquina virtual si estás empezando.
 
- ¡Una buena gestión de discos mantiene tu sistema limpio y funcionando al 100%! 🐧🚀
+ ¡Una buena gestión de discos mantiene tu sistema limpio y funcionando al 100%! 🐧🚀 >
 
