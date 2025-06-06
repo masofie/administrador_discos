@@ -1,4 +1,5 @@
 # 🐧💽 **Administrador de Discos en Linux/Ubuntu**
+<br>
 
 En esta sección veremos cómo utilizar la herramienta gráfica Discos (gnome-disks) incluida en la mayoría de entornos de escritorio en Linux/Ubuntu.
 Aprenderemos a:
@@ -13,6 +14,8 @@ Aprenderemos a:
 Esta herramienta es ideal para quienes prefieren una interfaz visual sencilla, pero poderosa, para gestionar sus discos en Linux.
 
 <br>
+
+##
 
 
 🧠 **Consejo final:**
