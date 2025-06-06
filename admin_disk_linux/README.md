@@ -14,8 +14,10 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual sencilla, p
 
 <br>
 
+
 🧠 **Consejo final:**
-Aunque la herramienta gráfica Discos es muy intuitiva, haz siempre una copia de seguridad antes de modificar particiones. 💾
+
+> Aunque la herramienta gráfica Discos es muy intuitiva, haz siempre una copia de seguridad antes de modificar particiones. 💾
 
   - 🔐 Algunas funciones requieren privilegios de administrador (te pedirá tu contraseña).
 
