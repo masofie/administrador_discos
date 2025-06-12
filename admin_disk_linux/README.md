@@ -47,6 +47,33 @@ sudo wipefs -a /dev/sdb
 ![Desde el cmd delete](./img_gparted/3_cmd_delete.png)
 
 
+## 2. Inicializando Disco
+<br>
+
+
+Entramos en Gparted y seleccionamos el disco nuevo y creamos una nueva partición . Con clic derecho a **“NUEVA”** , así como en la imagen .
+
+
+![Error al Inicializar 1](./img_gparted/4_inicializando_disco_error.png)
+
+
+Como podemos ver no nos deja , *¿por qué?* . Esto pasa porque no elegimos la tabla de particiones en en el disco , esto viene siendo **“INICIALIZAR EL DISCO EN WINDOWS”** , aquí se le conoce como tabla de particiones .
+
+
+![Error al Inicializar 2 ](./img_gparted/5_inicializando_disco_error.png)
+
+
+Nos fijamos en el error y hacemos lo que nos dice ir a , **“DISPOSITIVO”** **→ “CREAR TABLA DE PARTICIONES”** . 
+
+![Correcto inicalizacion 1 ](./img_gparted/6_inicializando_disco_correct.png)
+
+
+Nos da distintos tipos pero vamos ha escoger “GPT” y aplicamos los cambios de la siguiente manera 
+
+![Correcto inicalizacion 2 ](./img_gparted/7_inicializando_disco_correct.png)
+
+
+
 
 🧠 **Consejo Final:**
 
