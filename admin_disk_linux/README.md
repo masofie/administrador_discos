@@ -18,13 +18,24 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual sencilla, p
 ## 1. Gestor de Discos (GPARTED)
 
 
-1 - Descargamos el gestor desde la la página oficial de Linux , usando el siguiente enlaces te lleva a esta ventana ,a ahí puedes descargar el paquete o solo copiar el comando en el terminal y descargarlo . Nosotros utilizaremos el comando 
+1.1 - Descargamos el gestor desde la la página oficial de Linux , usando el siguiente enlaces te lleva a esta ventana ,a ahí puedes descargar el paquete o solo copiar el comando en el terminal y descargarlo . Nosotros utilizaremos el comando 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 https://gparted.org/download.php
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ![Enlace de Download](./img_gparted/1_enlace_dowload.png)
+
+
+1.2 – En el terminal ejecutamos el comando y dejamos que se descargue nuestro gestor . Como se muestra en la imagen 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sudo apt-get install gparted
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+![Desde el cmd Download](./img_gparted/2_cmd_dowload.png)
+
 
 
 
