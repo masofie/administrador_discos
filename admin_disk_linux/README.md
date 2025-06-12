@@ -68,7 +68,7 @@ Nos fijamos en el error y hacemos lo que nos dice ir a , **“DISPOSITIVO”** *
 ![Correcto inicalizacion 1 ](./img_gparted/6_inicializando_disco_correct.png)
 
 
-Nos da distintos tipos pero vamos ha escoger “GPT” y aplicamos los cambios de la siguiente manera 
+Nos da distintos tipos pero vamos ha escoger **“GPT”** y aplicamos los cambios de la siguiente manera 
 
 ![Correcto inicalizacion 2 ](./img_gparted/7_inicializando_disco_correct.png)
 
