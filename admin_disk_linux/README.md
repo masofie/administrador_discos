@@ -37,6 +37,14 @@ sudo apt-get install gparted
 ![Desde el cmd Download](./img_gparted/2_cmd_dowload.png)
 
 
+1.3 - Después buscamos nuestro disco en el terminal y eliminamos todo con el siguiente comando , esto para que nos quede libre . Ten encuentra que esto solo son pruebas y este disco es secundario .
+
+~~~~~~~~~~~~~~~~~~~~~~~
+sudo wipefs -a /dev/sdb
+~~~~~~~~~~~~~~~~~~~~~~~
+
+![Desde el cmd delete](./img_gparted/3_cmd_delete.png)
+
 
 
 🧠 **Consejo Final:**
