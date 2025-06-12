@@ -73,6 +73,42 @@ Nos da distintos tipos pero vamos ha escoger **“GPT”** y aplicamos los cambi
 ![Correcto inicalizacion 2 ](./img_gparted/7_inicializando_disco_correct.png)
 
 
+## 3. Particionando Disco GPT
+<br>
+
+
+Creamos la primera partición primaria , con su tamaño , sistema de archivo y su nombre . Y añadimos los cambios .
+
+![Particionando Disco GPT 1](./img_gparted/8_particiondo_gpt.png)
+
+
+Como podemos ver esta es la primera partición creada correctamente . Ten en cuenta que siempre hay que marcar la **“FLECHA VERDE”** para que se apliquen los cambios correctamente .
+
+![Particionando Disco GPT 2](./img_gparted/9_particiondo_gpt.png)
+
+
+Y que creamos otra mas con las mimas características pero con distinto nombre .
+
+![Particionando Disco GPT 3](./img_gparted/10_particiondo_gpt.png)
+
+
+Tiene que quedar así de la siguiente manera nuestro discos y las particiones que hay en el 
+
+![Particionando Disco GPT 4](./img_gparted/11_particiondo_gpt.png)
+
+Intentamos crear una partición extendida , **“NO SE PUEDE”** , porque las particiones extendidas y lógicas no se pueden crear en porque  un disco **“GPT”** estas particiones no son compatibles .
+
+![Particionando Disco GPT 5](./img_gparted/12_particiondo_gpt.png)
+
+
+Entonces creamos dos particiones más , para completar el particionado en el disco , así se tiene que ver el disco correctamente particionado .
+
+![Particionando Disco GPT 6](./img_gparted/13_particiondo_gpt.png)
+
+En el terminal también podemos ejecutar este comando para ver el particionado del disco desde el terminal 
+
+![Particionando Disco GPT 7](./img_gparted/14_particiondo_gpt.png)
+
 
 
 🧠 **Consejo Final:**
