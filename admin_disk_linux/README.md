@@ -111,6 +111,41 @@ En el terminal también podemos ejecutar este comando para ver el particionado d
 
 
 
+## 4. Particionando Disco MBR
+<br>
+
+Inicializamos el disco en formato **MBR (Master Boot Record)** , en sistemas operativos Linux no aparece directamente como **MBR** , aparece como **“MSDOS”** que es lo mismo .
+
+![Inicializando disco MBR](./img_gparted/15_inicializando_mbr.png)
+
+
+Creamos la primera partición primaria de la misma manera que antes con todas sus características así de la siguiente manera 
+
+
+![Particionando Disco GPT 1](./img_gparted/16_particiondo_mbr.png)
+
+
+Creamos una partición extendida , como podemos ver nos deja perfectamente porque es un disco MBR 
+
+![Particionando Disco GPT 2](./img_gparted/17_particiondo_mbr.png)
+
+
+Aquí esta la partición creada correctamente con sus características 
+
+![Particionando Disco GPT 3](./img_gparted/18_particiondo_mbr.png)
+
+Entro de la partición extendida creamos dos particiones lógicas
+
+![Particionando Disco GPT 4](./img_gparted/19_particiondo_mbr.png)
+
+
+Tiene que quedar de la siguiente maneta así como se muestra en la imagen , las extendidas tiene un color azul que las distinguen 
+
+![Particionando Disco GPT 5](./img_gparted/20_particiondo_mbr.png)
+
+
+
+
 🧠 **Consejo Final:**
 
 > Aunque la herramienta gráfica Discos es muy intuitiva, haz siempre una copia de seguridad antes de modificar particiones. 💾
