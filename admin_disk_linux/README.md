@@ -16,6 +16,7 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual sencilla, p
 <br>
 
 ## 1. Gestor de Discos (GPARTED)
+<br>
 
 
 Descargamos el gestor desde la la página oficial de Linux , usando el siguiente enlaces te lleva a esta ventana ,a ahí puedes descargar el paquete o solo copiar el comando en el terminal y descargarlo . Nosotros utilizaremos el comando 
