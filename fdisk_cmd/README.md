@@ -68,3 +68,13 @@ Creamos una partición primaria de tamaño de 2G y guardamos los cambios así co
 Creamos otra igual para participar , del mismo tamaño y guardamos los cambios 
 
 ![Segunda Primaria](./img_fdisk/4_primaria_2.png)
+
+
+Ahora creamos una partición extendida de 6G de tamaño , de la siguiente manera 
+
+![Primera Extendida](./img_fdisk/5_extendida_1.png)
+
+
+Creamos una partición lógica de 3GB de tamaño como podemos ver solo nos da la posibilidad de crear las lógicas porque solo queda vacía la partición extendida 
+
+![Segunda Extendida](./img_fdisk/5_extendida_2.png)
