@@ -78,3 +78,24 @@ Ahora creamos una partición extendida de 6G de tamaño , de la siguiente manera
 Creamos una partición lógica de 3GB de tamaño como podemos ver solo nos da la posibilidad de crear las lógicas porque solo queda vacía la partición extendida 
 
 ![Segunda Extendida](./img_fdisk/5_extendida_2.png)
+
+
+#
+
+✅ **Sugerencias para usuarios nuevos**
+
+>    - 🔍 Usa lsblk o fdisk -l primero para identificar correctamente tu disco (por ejemplo: /dev/sda, /dev/sdb).
+
+    - 🧠 Asegúrate de saber qué partición estás modificando antes de confirmar cualquier cambio.
+
+    - 📝 Aplica los cambios con cuidado. No se escriben en el disco hasta que uses el comando w dentro de fdisk.
+
+    - 🔒 Usa sudo para acceder a permisos de administrador:
+
+    ~~~~~~~~~~~~~~~~~~~~
+    sudo fdisk /dev/sdX
+    ~~~~~~~~~~~~~~~~~~~~
+
+    (Reemplaza sdX con el nombre real de tu disco.)
+
+    📦 Si estás en un sistema UEFI, considera usar gdisk o parted en lugar de fdisk para mejor compatibilidad.
