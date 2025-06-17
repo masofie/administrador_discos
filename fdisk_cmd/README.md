@@ -1,5 +1,5 @@
 #
-# 💽📟🛠️ GUÍA RÁPIDA DE *fdisk* EN LINUX
+# 💽📟🛠️ Guía rápida de *fdisk* en Linux
 
 🧩 **¿Qué es fdisk en Linux?**
 
@@ -10,7 +10,7 @@ fdisk es una herramienta de línea de comandos 🖥️ usada en sistemas Linux p
    - ➕ Crear nuevas particiones
 
    - ❌ Eliminar particiones
-
+s
    - ✏️ Cambiar el tipo o el sistema de archivos
 
 Es especialmente útil cuando trabajas con discos nuevos o al preparar sistemas para instalar Linux. ⚙️
@@ -18,4 +18,5 @@ Es especialmente útil cuando trabajas con discos nuevos o al preparar sistemas 
 ⚠️ Precaución: Usar fdisk incorrectamente puede borrar datos. Siempre haz una copia de seguridad antes de modificar particiones.
 
 # 
-# Disco MBR 
+# Particionando Disco *mbr* : 
+
