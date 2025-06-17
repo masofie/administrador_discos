@@ -44,3 +44,15 @@ Inicializando disco en mbr , utilizando la letra o (crea una nueva tabla de part
 
 ![Inicializar Disco](./img_fdisk/3_inicializar_disco.png)
 
+## Particionando Disco 
+##
+
+- **Inicializando Disco :**
+    - g = gpt
+    - o = mbr
+
+- **Creando Particiones :**
+    - n = nueva partición
+    - p = primaria
+    - e = extendida
+    - w = guardar cambios 
