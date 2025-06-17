@@ -92,9 +92,9 @@ Creamos una partición lógica de 3GB de tamaño como podemos ver solo nos da la
 
 >    - 🔒 Usa sudo para acceder a permisos de administrador:
 
->    ~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~
     sudo fdisk /dev/sdX
->    ~~~~~~~~~~~~~~~~~~~~
+d    ~~~~~~~~~~~~~~~~~~~~
 
 >    (Reemplaza sdX con el nombre real de tu disco.)
 
