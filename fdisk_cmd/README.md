@@ -17,10 +17,8 @@ Es especialmente útil cuando trabajas con discos nuevos o al preparar sistemas 
 
 ⚠️ Precaución: Usar fdisk incorrectamente puede borrar datos. Siempre haz una copia de seguridad antes de modificar particiones.
 
-# 
+
 # Particionando Disco *mbr* : 
-
-
 
 ## Primeros Pasos
 ##
