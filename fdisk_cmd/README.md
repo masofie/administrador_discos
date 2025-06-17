@@ -89,8 +89,7 @@ Creamos una partición lógica de 3GB de tamaño como podemos ver solo nos da la
 >    - 📝 Aplica los cambios con cuidado. No se escriben en el disco hasta que uses el comando w dentro de fdisk.
 >    - 🔒 Usa sudo para acceder a permisos de administrador:    
 -    ~~~~~~~~~~~~~~~~~~~~
-    sudo fdisk /dev/sdX
--    ~~~~~~~~~~~~~~~~~~~~
+    sudo fdisk /dev/sdb
 
 >    (Reemplaza sdX con el nombre real de tu disco.)
 >    📦 Si estás en un sistema UEFI, considera usar gdisk o parted en lugar de fdisk para mejor compatibilidad.
