@@ -20,3 +20,28 @@ Es especialmente útil cuando trabajas con discos nuevos o al preparar sistemas 
 # 
 # Particionando Disco *mbr* : 
 
+
+##
+## Primeros Pasos
+
+Mostrar el disco en especifico que vamos ha utilizar para crear las particiones y realizar las pruebas , para esto utilizamos el siguiente comando en el terminal , (recuerda utilizar el sudo para tener permisos de administrador) 
+
+~~~~~~~~~~~~~~~~~~~~~~~
+sudo fdisk -l /dev/sdb
+~~~~~~~~~~~~~~~~~~~~~~~
+
+![Mostrar Disco](./img_fdisk/1_mostrar_disco.png)
+
+Si todavía no han usado la herramienta fdisk podemos utilizar la ayuda . Para buscar esta ayuda ejecutamos el siguiente comando en el terminal y marcamos la letra m como nos indica .
+
+~~~~~~~~~~~~~~~~~~~~~~~
+sudo fdisk /dev/sdb
+~~~~~~~~~~~~~~~~~~~~~~~
+
+![Mostrar Ayuda](./img_fdisk/2_mostrar_ayuda.png)
+
+
+Inicializando disco en mbr , utilizando la letra o (crea una nueva tabla de particiones DOS vacía)
+
+![Inicializar Disco](./img_fdisk/3_inicializar_disco.png)
+
