@@ -47,16 +47,15 @@ Inicializando disco en mbr , utilizando la letra o (crea una nueva tabla de part
 ## Particionando Disco 
 ##
 
-Aquí tienes una pequeña ayuda para usar *fdisk* de una manera básica y más sencilla .
+Aquí tienes una pequeña ayuda para usar *fdisk* de una manera básica y más sencilla . Con esto te ayudara a enteder su uso
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- **Inicializando Disco :**
-    - g = gpt
-    - o = mbr
+ 
+> - Inicializando Disco :
+>    - g = gpt
+>    - o = mbr
 
-- **Creando Particiones :**
-    - n = nueva partición
-    - p = primaria
-    - e = extendida
-    - w = guardar cambios
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> - Creando Particiones :
+>   - n = nueva partición
+>   - p = primaria
+>   - e = extendida
+>   - w = guardar cambios
