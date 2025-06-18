@@ -74,7 +74,7 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
 ![Inicializando Disco Duro](./img_diskpart/virtualbox2.png)
 
 ##
-## 2. PARTICIONANDO DISCO *"MBR"* EN DISKPART
+## 2. Particionando Disco *"mbr"* con DISKPART
 
 2.1 – Entramos en el terminal **(cmd)** y lo ejecutamos como administrador.
 
