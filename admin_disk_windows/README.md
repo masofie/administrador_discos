@@ -1,5 +1,10 @@
 # 🖥️💽🗂️ **Administrador de Discos en Windows**
 
+### Indice
+- [🖥️💽🗂️ **Administrador de Discos en Windows**](#️️-administrador-de-discos-en-windows)
+    - [Indice](#indice)
+  - [📀🧱 Particionando Disco *"mbr"*](#-particionando-disco-mbr)
+
 <br>
 En esta sección aprenderemos a utilizar la herramienta gráfica Administrador de discos que viene integrada en Windows. Veremos cómo:
 
@@ -15,9 +20,7 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 
 <br>
 
-##
 ## 📀🧱 Particionando Disco *"mbr"* 
-
 
 1 - Añadimos un disco nuevo y lo inicializamos el el administrador de discos le damos formato *mbr* para realizar estas pruebas 
 
