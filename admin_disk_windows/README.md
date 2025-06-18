@@ -29,7 +29,7 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 ![Nueva Partición](./img/admin_disk_2.png)
 
 
-3 - Ahora le damos tamaño a la partición de 2000MB y continuamos con la configuración dando clic en "siguiente" de la siguiente manera  
+3 - Ahora le damos tamaño a la partición de 2000MB y continuamos con la configuración dando clic en "siguiente" para continuar
 
 ![Tamaño de Partición](./img/admin_disk_3.png)
 
