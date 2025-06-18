@@ -1,5 +1,10 @@
-#
 # 💽📟🛠️ Intérprete de Comandos DISKPART
+
+### Indice
+- [💽📟🛠️ Intérprete de Comandos DISKPART](#️-intérprete-de-comandos-diskpart)
+    - [Indice](#indice)
+  - [1. Configuración del Virtual-Box](#1-configuración-del-virtual-box)
+  - [2. Particionando Disco *"mbr"* con DISKPART](#2-particionando-disco-mbr-con-diskpart)
 
 <br>
 
@@ -60,8 +65,8 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
   convert gpt                  # Convertir disco a GPT
   detail disk                  # Ver información detallada del disco
   ~~~
-    
-##
+  
+
 ## 1. Configuración del Virtual-Box
 
 1.1 Creamos un nuevo disco de 10GB y lo añadimos a nuestra máquina virtual 
@@ -73,7 +78,7 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
 
 ![Inicializando Disco Duro](./img_diskpart/virtualbox2.png)
 
-##
+
 ## 2. Particionando Disco *"mbr"* con DISKPART
 
 2.1 – Entramos en el terminal **(cmd)** y lo ejecutamos como administrador.
