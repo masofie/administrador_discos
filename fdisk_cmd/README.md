@@ -7,6 +7,7 @@
   - [Primeros Pasos](#primeros-pasos)
   - [Particionando Disco](#particionando-disco)
 
+<br>
 
 🧩 **¿Qué es fdisk en Linux?**
 
