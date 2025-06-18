@@ -1,4 +1,4 @@
-# 🖥️💽🗂️ **ADMINISTRADOR DE DISCOS EN WINDOWS**
+# 🖥️💽🗂️ **Administrador de Discos en Windows**
 
 <br>
 En esta sección aprenderemos a utilizar la herramienta gráfica Administrador de discos que viene integrada en Windows. Veremos cómo:
@@ -16,7 +16,7 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 <br>
 
 ##
-## 📀🧱 PARTICIONANDO DISCOS MBR
+## 📀🧱 Particionando Disco *mbr* 
 
 
 1 - Añadimos un disco nuevo y lo inicializamos el el administrador de discos le damos formato MBR
