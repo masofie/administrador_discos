@@ -73,7 +73,7 @@ Nos da distintos tipos pero vamos ha escoger **“GPT”** y aplicamos los cambi
 ![Correcto inicalizacion 2 ](./img_gparted/7_inicializando_disco_correct.png)
 
 
-## 3. Particionando Disco GPT
+## 3. Particionando Disco *gpt*
 <br>
 
 
@@ -111,7 +111,7 @@ En el terminal también podemos ejecutar este comando para ver el particionado d
 
 
 
-## 4. Particionando Disco MBR
+## 4. Particionando Disco *mbr*
 <br>
 
 Inicializamos el disco en formato **MBR (Master Boot Record)** , en sistemas operativos Linux no aparece directamente como **MBR** , aparece como **“MSDOS”** que es lo mismo .
