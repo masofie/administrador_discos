@@ -1,9 +1,9 @@
 # 🐧💽 **Administrador de Discos en Linux/Ubuntu**
 <br>
 
-# Indice
+## Indice
 - [🐧💽 **Administrador de Discos en Linux/Ubuntu**](#-administrador-de-discos-en-linuxubuntu)
-- [Indice](#indice)
+  - [Indice](#indice)
   - [1. Gestor de Discos (GPARTED)](#1-gestor-de-discos-gparted)
   - [2. Inicializando Disco](#2-inicializando-disco)
   - [3. Particionando Disco *gpt*](#3-particionando-disco-gpt)
