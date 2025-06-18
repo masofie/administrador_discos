@@ -16,29 +16,29 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 <br>
 
 ##
-## 📀🧱 Particionando Disco *mbr* 
+## 📀🧱 Particionando Disco *"mbr"* 
 
 
-1 - Añadimos un disco nuevo y lo inicializamos el el administrador de discos le damos formato MBR
+1 - Añadimos un disco nuevo y lo inicializamos el el administrador de discos le damos formato *mbr* para realizar estas pruebas 
 
 ![Inicializando Disco](./img/admin_disk_1.png)
 
 
-2 - Damos clic derecho en el disco y creamos una nueva partición simple 
+2 - Creamos una nueva partición simple , dando clic derecho en el disco nuevo que hemos añadido .
 
 ![Nueva Partición](./img/admin_disk_2.png)
 
 
-3 - Damos tamaño a la partición de 2000MB y le damos a siguiente  
+3 - Ahora le damos tamaño a la partición de 2000MB y continuamos con la configuración dando clic en "siguiente" de la siguiente manera  
 
 ![Tamaño de Partición](./img/admin_disk_3.png)
 
-4 - Asignamos una letra y le damos a siguiente . Esto es para identificarla mejor a la hora de alguna búsqueda 
+4 - Asignamos una letra . Esto es para identificarla mejor a la hora de alguna búsqueda 
 
 ![Asignación de Letra](./img/admin_disk_4.png)
 
 
-5 - Formateamos la partición con tipo de NTFS y el nombre que le queremos asignar . Marcamos la casilla de ‘dar formato rápido’ esto es para que no tarde en crear la partición y hacemos clic en siguiente 
+5 - Formateamos la partición con tipo de **NTFS** y el nombre que le queremos asignar . Marcamos la casilla de **‘dar formato rápido’** esto es para que no tarde en crear la partición y hacemos clic en siguiente 
 
 ![Tipo de Formato](./img/admin_disk_5.png)
 
