@@ -1,5 +1,5 @@
 #
-# 💽📟🛠️ DISKPART
+# 💽📟🛠️ Intérprete de Comandos DISKPART
 
 <br>
 
@@ -21,7 +21,6 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
 - 💡 **Comandos Principales :**
 
   ~~~
-  bash
   list disk           # Listar todos los discos disponibles
   select disk X       # Seleccionar disco (reemplaza X por el número del disco)
 
@@ -63,21 +62,21 @@ Puedes abrir diskpart desde el menú de búsqueda de *Windows*.  Escribe **"Sím
   ~~~
     
 ##
-## 1. CONFIGURACIÓN DEL VIRTUAL BOX
+## 1. Configuración del Virtual-Box
 
 1.1 Creamos un nuevo disco de 10GB y lo añadimos a nuestra máquina virtual 
 
 ![Añadiendo Disco Duro](./img_diskpart/virtualbox1.png)
 
 
-1.2 Iniciamos Windows , vamos al administrador de discos e inicializamos el disco , a formato **MBR** .
+1.2 Iniciamos Windows , vamos al administrador de discos e inicializamos el disco , a formato **MBR** . Esto te lo muestra desde que entras en la herramienta .
 
 ![Inicializando Disco Duro](./img_diskpart/virtualbox2.png)
 
 ##
 ## 2. PARTICIONANDO DISCO *"MBR"* EN DISKPART
 
-2.1 – Abrimos el terminal (cmd) de Windows y lo ejecutamos como administrador.
+2.1 – Entramos en el terminal **(cmd)** y lo ejecutamos como administrador.
 
 ![Iniciando Diskpart](./img_diskpart/diskpart_1.png)
 
