@@ -1,6 +1,18 @@
 #
 # 💽📟🛠️ Guía rápida de *fdisk* en Linux
 
+### Indice
+- [](#)
+- [💽📟🛠️ Guía rápida de *fdisk* en Linux](#️-guía-rápida-de-fdisk-en-linux)
+    - [Indice](#indice)
+- [Particionando Disco *mbr* :](#particionando-disco-mbr-)
+  - [Primeros Pasos](#primeros-pasos)
+  - [](#-1)
+  - [Particionando Disco](#particionando-disco)
+  - [](#-2)
+- [](#-3)
+
+
 🧩 **¿Qué es fdisk en Linux?**
 
 fdisk es una herramienta de línea de comandos 🖥️ usada en sistemas Linux para gestionar particiones en discos duros 💽. Con ella puedes:
