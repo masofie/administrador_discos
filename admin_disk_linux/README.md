@@ -1,5 +1,4 @@
 # 🐧💽 **Administrador de Discos en Linux/Ubuntu**
-<br>
 
 ### Indice
 - [🐧💽 **Administrador de Discos en Linux/Ubuntu**](#-administrador-de-discos-en-linuxubuntu)
@@ -9,6 +8,7 @@
   - [3. Particionando Disco *gpt*](#3-particionando-disco-gpt)
   - [4. Particionando Disco *mbr*](#4-particionando-disco-mbr)
 
+<br>
 
 En esta sección veremos cómo utilizar la herramienta gráfica Discos (gnome-disks) incluida en la mayoría de entornos de escritorio en Linux/Ubuntu.
 Aprenderemos a:
