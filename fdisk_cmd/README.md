@@ -1,16 +1,11 @@
-#
 # 💽📟🛠️ Guía rápida de *fdisk* en Linux
 
 ### Indice
-- [](#)
 - [💽📟🛠️ Guía rápida de *fdisk* en Linux](#️-guía-rápida-de-fdisk-en-linux)
     - [Indice](#indice)
 - [Particionando Disco *mbr* :](#particionando-disco-mbr-)
   - [Primeros Pasos](#primeros-pasos)
-  - [](#-1)
   - [Particionando Disco](#particionando-disco)
-  - [](#-2)
-- [](#-3)
 
 
 🧩 **¿Qué es fdisk en Linux?**
@@ -33,7 +28,6 @@ Es especialmente útil cuando trabajas con discos nuevos o al preparar sistemas 
 # Particionando Disco *mbr* : 
 
 ## Primeros Pasos
-##
 
 Mostrar el disco en especifico que vamos ha utilizar para crear las particiones y realizar las pruebas , para esto utilizamos el siguiente comando en el terminal , (recuerda utilizar el sudo para tener permisos de administrador) 
 
@@ -57,7 +51,6 @@ Inicializando disco en mbr , utilizando la letra o (crea una nueva tabla de part
 ![Inicializar Disco](./img_fdisk/3_inicializar_disco.png)
 
 ## Particionando Disco 
-##
 
 Aquí tienes una pequeña ayuda para usar *fdisk* de una manera básica y más sencilla . Con esto te ayudara a enteder su uso
 
@@ -92,7 +85,6 @@ Creamos una partición lógica de 3GB de tamaño como podemos ver solo nos da la
 ![Segunda Extendida](./img_fdisk/5_extendida_2.png)
 
 
-#
 
 ✅ **Sugerencias para usuarios nuevos**
 
