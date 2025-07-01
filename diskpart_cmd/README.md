@@ -1,8 +1,7 @@
 # 💽📟🛠️ Intérprete de Comandos DISKPART
 
-### Indice
+**Indice**
 - [💽📟🛠️ Intérprete de Comandos DISKPART](#️-intérprete-de-comandos-diskpart)
-    - [Indice](#indice)
   - [1. Configuración del Virtual-Box](#1-configuración-del-virtual-box)
   - [2. Particionando Disco *"mbr"* con DISKPART](#2-particionando-disco-mbr-con-diskpart)
 
