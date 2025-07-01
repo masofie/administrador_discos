@@ -1,8 +1,7 @@
 # 💽📟🛠️ Guía rápida de *fdisk* en Linux
 
-### Indice
+**Indice**
 - [💽📟🛠️ Guía rápida de *fdisk* en Linux](#️-guía-rápida-de-fdisk-en-linux)
-    - [Indice](#indice)
 - [Particionando Disco *mbr* :](#particionando-disco-mbr-)
   - [Primeros Pasos](#primeros-pasos)
   - [Particionando Disco](#particionando-disco)
