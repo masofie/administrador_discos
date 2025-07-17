@@ -36,7 +36,7 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual en lugar de
 <br>
 
 
-3 - Ahora le damos tamaño a la partición de *``2000MB``* y continuamos con la configuración dando clic en "siguiente" para continuar
+3 - Ahora le damos tamaño a la partición de *``2000MB``* y continuamos con la configuración dando clic en *``siguiente``* para continuar
 
 ![Tamaño de Partición](./img/admin_disk_3.png)
 <br>
