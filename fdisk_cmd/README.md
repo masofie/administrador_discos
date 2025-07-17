@@ -32,7 +32,7 @@ Es especialmente útil cuando trabajas con discos nuevos o al preparar sistemas 
 
 ## Primeros Pasos
 
-1 - Mostrar el disco en especifico que vamos ha utilizar para crear las particiones y realizar las pruebas , para esto utilizamos el siguiente comando en el terminal , (recuerda utilizar el sudo para tener permisos de administrador) 
+1 - Mostrar el disco en especifico que vamos ha utilizar para crear las particiones y realizar las pruebas , para esto utilizamos el siguiente comando en el terminal , *``(recuerda utilizar el "sudo" para tener permisos de administrador)``* 
 
 ~~~~~~~~~~~~~~~~~~~~~~~
 sudo fdisk -l /dev/sdb
