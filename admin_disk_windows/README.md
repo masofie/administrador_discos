@@ -1,7 +1,7 @@
 # 🖥️💽🗂️ **Administrador de Discos en Windows**
+<br>
 
-**Indice**
-
+**📑 Indice**
 - [🖥️💽🗂️ **Administrador de Discos en Windows**](#️️-administrador-de-discos-en-windows)
   - [📀🧱 Particionando Disco *``mbr``*](#-particionando-disco-mbr)
 
