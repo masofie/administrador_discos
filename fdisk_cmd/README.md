@@ -118,6 +118,6 @@ Aquí tienes una pequeña ayuda para usar *``fdisk``* de una manera básica y m�
 >    - 🧠 Asegúrate de saber qué partición estás modificando antes de confirmar cualquier cambio.
 >    - 📝 Aplica los cambios con cuidado. No se escriben en el disco hasta que uses el comando *``w``* dentro de *``fdisk``*.
 >    - 🔒 Usa sudo para acceder a permisos de administrador:  *``sudo fdisk /dev/sdb``*  
-
+>
 >    (Reemplaza *``sdX``* con el nombre real de tu disco.)
 >    📦 Si estás en un sistema *``UEFI``* , considera usar *``gdisk``* o parted en lugar de *``fdisk``* para mejor compatibilidad.
