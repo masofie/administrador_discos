@@ -3,11 +3,14 @@
 
 **📑 Indice**
 - [💽📟🛠️ Guía rápida de *``fdisk``* en Linux](#️-guía-rápida-de-fdisk-en-linux)
-- [Particionando Disco *``mbr``* :](#particionando-disco-mbr-)
-  - [Primeros Pasos](#primeros-pasos)
-  - [Particionando Disco](#particionando-disco)
+- [ℹ️ Definición](#ℹ️-definición)
+- [🧱 Particionando Disco *``mbr``* :](#-particionando-disco-mbr-)
+  - [👣 Primeros Pasos](#-primeros-pasos)
+  - [🛠️ Particionando Disco](#️-particionando-disco)
 
 <br>
+
+# ℹ️ Definición
 
 🧩 **¿Qué es *``fdisk``* en Linux?**
 
@@ -27,10 +30,11 @@ Es especialmente útil cuando trabajas con discos nuevos o al preparar sistemas 
 
 <br>
 
-# Particionando Disco *``mbr``* : 
+# 🧱 Particionando Disco *``mbr``* : 
 <br>
 
-## Primeros Pasos
+## 👣 Primeros Pasos
+<br>
 
 1 - Mostrar el disco en especifico que vamos ha utilizar para crear las particiones y realizar las pruebas , para esto utilizamos el siguiente comando en el terminal , *``(recuerda utilizar el "sudo" para tener permisos de administrador)``* 
 
@@ -63,7 +67,7 @@ sudo fdisk /dev/sdb
 <br>
 
 
-## Particionando Disco 
+## 🛠️ Particionando Disco 
 
 Aquí tienes una pequeña ayuda para usar *``fdisk``* de una manera básica y más sencilla . Con esto te ayudara a enteder su uso
 
@@ -81,7 +85,7 @@ Aquí tienes una pequeña ayuda para usar *``fdisk``* de una manera básica y m�
 <br>
 <br>
 
-1 - Creamos una partición primaria de tamaño de *``2G``* y guardamos los cambios así como se muestra en la siguiente imagen 
+1 - Creamos una partición primaria de tamaño de *``2G``* y guardamos los cambios así como se muestra en la siguiente imagen .
 
 ![Primera Primaria](./img_fdisk/4_primaria_1.png)
 <br>
@@ -89,7 +93,7 @@ Aquí tienes una pequeña ayuda para usar *``fdisk``* de una manera básica y m�
 
 
 
-2 - Creamos otra igual para participar , del mismo tamaño y guardamos los cambios 
+2 - Creamos otra igual para participar , del mismo tamaño y guardamos los cambios .
 
 ![Segunda Primaria](./img_fdisk/4_primaria_2.png)
 <br>
@@ -97,7 +101,7 @@ Aquí tienes una pequeña ayuda para usar *``fdisk``* de una manera básica y m�
 
 
 
-3 - Ahora creamos una partición extendida de *``6G``* de tamaño , de la siguiente manera 
+3 - Ahora creamos una partición extendida de *``6G``* de tamaño , de la siguiente manera .
 
 ![Primera Extendida](./img_fdisk/5_extendida_1.png)
 <br>
@@ -105,7 +109,7 @@ Aquí tienes una pequeña ayuda para usar *``fdisk``* de una manera básica y m�
 
 
 
-4 - Creamos una partición lógica de *``3GB``* de tamaño como podemos ver solo nos da la posibilidad de crear las lógicas porque solo queda vacía la partición extendida 
+4 - Creamos una partición lógica de *``3GB``* de tamaño como podemos ver solo nos da la posibilidad de crear las lógicas porque solo queda vacía la partición extendida .
 
 ![Segunda Extendida](./img_fdisk/5_extendida_2.png)
 <br>
