@@ -77,6 +77,7 @@ Puedes abrir *``diskpart``* desde el menú de búsqueda de Windows.  Escribe *``
 
 ## ⚙️ 1. Configuración del Virtual-Box
 <br>
+<br>
 
 1 - Añadimos un nuevo disco a nuestro equipo con un tamaño de *``10GB``* . Hazlo de esta manera . 
 
