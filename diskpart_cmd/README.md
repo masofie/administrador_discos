@@ -96,6 +96,7 @@ Puedes abrir *``diskpart``* desde el menú de búsqueda de *Windows*.  Escribe *
 1 - Iniciamos como administrador en *``diskpart``* desde el terminal *``(cmd)``*  
 
 ~~~~~~~~
+# Iniciar diskpart
 diskpart
 ~~~~~~~~
 
@@ -108,6 +109,7 @@ diskpart
 2 - Una vez entro de *``diskpart``*  listamos (mostramos) los discos 
 
 ~~~~~~~~
+# Mostrar discos
 list disk
 ~~~~~~~~
 
@@ -117,12 +119,23 @@ list disk
 
 
 
-3 - Mostramos los discos con el comando *``list``* , aquí podemos ver que tenemos dos discos *``Disco0``* y *``Disco1``* .
+3 - Seleccionamos el disco llamado *``disk1``* , el disco que tenga el *``(*)``* es el disco seleccionado . Y mostramos el resultado .
+
+~~~~~~~~
+# Seleccionar disco
+select disk (num)
+
+# Mostrar discos  
+list disk
+~~~~~~~~
 
 
 ![Listar Discos](./img_diskpart/diskpart_3.png)
 <br>
 <br>
+
+
+4 - 
 
 2.3 - Para seleccionar un disco utilizamos el comando *``select``* y el número del disco , sabes que esta seleccionando es que tiene el *``(*)``* al principio
 
