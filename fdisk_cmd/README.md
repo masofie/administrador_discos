@@ -68,6 +68,7 @@ sudo fdisk /dev/sdb
 
 
 ## 🛠️ Particionando Disco 
+<br>
 
 Aquí tienes una pequeña ayuda para usar *``fdisk``* de una manera básica y más sencilla . Con esto te ayudara a enteder su uso
 
@@ -117,6 +118,7 @@ Aquí tienes una pequeña ayuda para usar *``fdisk``* de una manera básica y m�
 
 
 ✅ **Sugerencias para usuarios nuevos**
+<br>
 
 >    - 🔍 Usa *``lsblk o fdisk -l``* primero para identificar correctamente tu disco (por ejemplo: *``/dev/sda, /dev/sdb``*).
 >    - 🧠 Asegúrate de saber qué partición estás modificando antes de confirmar cualquier cambio.
