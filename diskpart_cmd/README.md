@@ -3,12 +3,15 @@
 
 **📑 Indice**
 - [💽📟🛠️ Intérprete de Comandos DISKPART](#️-intérprete-de-comandos-diskpart)
-  - [1. Configuración del Virtual-Box](#1-configuración-del-virtual-box)
-  - [2. Particionando Disco *``mbr``* con DISKPART](#2-particionando-disco-mbr-con-diskpart)
+- [📘 1. Aspectos Importantes](#-1-aspectos-importantes)
+  - [⚙️ 1. Configuración del Virtual-Box](#️-1-configuración-del-virtual-box)
+  - [🧱 2. Particionando Disco *``mbr``* con DISKPART](#-2-particionando-disco-mbr-con-diskpart)
 
 <br>
 
-*``DISKPART``* es una herramienta integrada en Windows que se utiliza desde la línea de comandos. Permite administrar discos duros, memorias *``USB``* y otras unidades de almacenamiento.
+# 📘 1. Aspectos Importantes 
+
+*``DISKPART``* es una herramienta integrada en Windows que se utiliza desde la línea de comandos. Permite administrar discos duros, memorias *``usb``* y otras unidades de almacenamiento.
 Con *``diskpart``* puedes crear, eliminar o modificar particiones (las divisiones internas de un disco).
 
 ⚠️ ¡Importante! Hay que tener mucho cuidado al usarla, ya que un mal comando puede borrar toda la información de un disco.
@@ -68,40 +71,53 @@ Puedes abrir *``diskpart``* desde el menú de búsqueda de *Windows*.  Escribe *
   <br>
   <br>
 
-## 1. Configuración del Virtual-Box
+## ⚙️ 1. Configuración del Virtual-Box
+<br>
 
-1.1 Creamos un nuevo disco de *``10GB``* y lo añadimos a nuestra máquina virtual 
+1 - Añadimos un nuevo disco , a nuestro equipo con un tamano de *``10GB``* 
 
 ![Añadiendo Disco Duro](./img_diskpart/virtualbox1.png)
 <br>
 <br>
 
 
-1.2 Iniciamos Windows , vamos al administrador de discos e inicializamos el disco , a formato *``MBR``* . Esto te lo muestra desde que entras en la herramienta .
+
+2 - En el administrador de discos inicializamos el disco , con un formato *``mbr``* . Desde que entras de muestra este mensaje .
 
 ![Inicializando Disco Duro](./img_diskpart/virtualbox2.png)
 <br>
 <br>
 
-## 2. Particionando Disco *``mbr``* con DISKPART
 
-2.1 – Entramos en el terminal *``(cmd)``* y lo ejecutamos como administrador.
+
+## 🧱 2. Particionando Disco *``mbr``* con DISKPART
+<br>
+
+1 - Iniciamos como administrador en *``diskpart``* desde el terminal *``(cmd)``*  
+
+~~~~~~~~
+diskpart
+~~~~~~~~
 
 ![Iniciando Diskpart](./img_diskpart/diskpart_1.png)
 <br>
 <br>
 
-Una vez dentro entramos a *``diskpart``* una herramienta de Windows para administrar nuestros discos y ejecutamos el siguiente comando 
+
+
+2 - Una vez entro de *``diskpart``*  listamos (mostramos) los discos 
 
 ~~~~~~~~
-diskpart
+list disk
 ~~~~~~~~
 
 ![Listar Discos](./img_diskpart/diskpart_2.png)
 <br>
 <br>
 
-2.2 – Primero mostramos los discos con el comando *``list``* , aquí podemos ver que tenemos dos discos *``Disco0``* y *``Disco1``* .
+
+
+3 - Mostramos los discos con el comando *``list``* , aquí podemos ver que tenemos dos discos *``Disco0``* y *``Disco1``* .
 
 
 ![Listar Discos](./img_diskpart/diskpart_3.png)
