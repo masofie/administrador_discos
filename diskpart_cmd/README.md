@@ -5,7 +5,7 @@
 - [💽📟🛠️ Intérprete de Comandos DISKPART](#️-intérprete-de-comandos-diskpart)
 - [📘 1. Aspectos Importantes](#-1-aspectos-importantes)
   - [⚙️ 1. Configuración del Virtual-Box](#️-1-configuración-del-virtual-box)
-  - [🧱 2. Particionando Disco *``mbr``* con DISKPART](#-2-particionando-disco-mbr-con-diskpart)
+  - [🧱 2. Particionando Disco *``mbr``*](#-2-particionando-disco-mbr)
 
 <br>
 
@@ -95,7 +95,7 @@ Puedes abrir *``diskpart``* desde el menú de búsqueda de Windows.  Escribe *``
 
 
 
-## 🧱 2. Particionando Disco *``mbr``* con DISKPART
+## 🧱 2. Particionando Disco *``mbr``*
 <br>
 
 1 - Iniciamos como administrador en *``diskpart``* desde el terminal *``(cmd)``*  
