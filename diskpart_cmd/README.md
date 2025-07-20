@@ -17,13 +17,14 @@ Con *``diskpart``* puedes crear, eliminar o modificar particiones (las divisione
 ⚠️ ¡Importante! Hay que tener mucho cuidado al usarla, ya que un mal comando puede borrar toda la información de un disco.
 
 <br>
+<br>
 
 ⚙️ **Funcionamiento de `diskpart`**
 <br>
 
 - 🧭 **Acceder a `diskpart`**
 
-Puedes abrir *``diskpart``* desde el menú de búsqueda de *Windows*.  Escribe **"Símbolo del sistema"** o **"cmd"**, haz clic derecho y selecciona **"Ejecutar como administrador"**.  Luego, escribe diskpart y presiona *Enter* para iniciar la herramienta.
+Puedes abrir *``diskpart``* desde el menú de búsqueda de Windows.  Escribe *``"Símbolo del sistema"``* o cmd , haz clic derecho y selecciona *``"Ejecutar como administrador"``*.  Luego, escribe diskpart y presiona *``Enter``* para iniciar la herramienta.
 
 
 - 💡 **Comandos Principales :**
@@ -74,7 +75,7 @@ Puedes abrir *``diskpart``* desde el menú de búsqueda de *Windows*.  Escribe *
 ## ⚙️ 1. Configuración del Virtual-Box
 <br>
 
-1 - Añadimos un nuevo disco , a nuestro equipo con un tamano de *``10GB``* 
+1 - Añadimos un nuevo disco a nuestro equipo con un tamaño de *``10GB``* . Hazlo de esta manera . 
 
 ![Añadiendo Disco Duro](./img_diskpart/virtualbox1.png)
 <br>
@@ -135,16 +136,10 @@ list disk
 <br>
 
 
-4 - 
+4 - Creamos una partición de tipo primaria de *``2000MB``*  . Comprobamos las particiones mostrado las que hay creadas .
 
-2.3 - Para seleccionar un disco utilizamos el comando *``select``* y el número del disco , sabes que esta seleccionando es que tiene el *``(*)``* al principio
-
-![Seleccionamos Disco](./img_diskpart/diskpart_3.png)
-<br>
-<br>
-
-2.4 - Para crear una partición primaria se usa create y el tipo de partición con el tamaño que deseas 
 ~~~~~~~~
+# Crear partición primaria
  create partition primary size=2000
 ~~~~~~~~
 
@@ -152,60 +147,105 @@ list disk
 <br>
 <br>
 
-2.5 - Creamos *``3``* particiones igual , tenemos que tener *``4``* particiones primarias y un espacio libre 
+
+5 - Creamos *``3``* particiones primarias del mismo tamaño . El disco tiene que tener *``4``* particiones primarias , porque antes creamos otro .
+
 
 ![Crear tres Particiones](./img_diskpart/diskpart_5.png)
 <br>
 <br>
 
-2.6 - Ahora intentamos crear otra partición primaria , como puedes ver no se puede .
+
+
+6 - POSIBLE ERROR ->  Intentamos crear otra partición primaria , ya ves que *``"NO SE PUEDE"``* .
 
 ![Intentamos crear la particion 5](./img_diskpart/diskpart_6.png)
 <br>
 <br>
 
 
-2.7 -  Para solucionar el problema borramos la ultima partición creada con el comando *``delete``* y como puedes ver en vez de formar dos particiones forma una sola que aumenta el espacio.
+7 - SOLUCIÓN -> Borramos la ultima partición usando el comando *``delete``*  . Esto hace que en vez de dejar dos particiones vacias , forma una única partición (o sea aumenta su espacio libre) .
+
+~~~~~~~~
+# Seleccionar partición
+select partition 4
+
+# Borrar partition
+delete partition
+~~~~~~~~
 
 ![Eliminamos particion](./img_diskpart/diskpart_7.png)
 <br>
 <br>
 
 
-2.8 – Creamos una partición extendida con el espacio que queda , utilizando el comando *``extend``* en ves de *``primary``* así como se ve en la imagen .
+
+8 - Creamos una partición extendia con el espacio libre , utilizamos el comando *``extend``* .
+
+~~~~~~~~
+# Creación de partición logica 
+create partition extend
+
+# Mostrar particiones 
+list partition
+~~~~~~~~
 
 ![Crear nueva particion extendida](./img_diskpart/diskpart_8.png)
 <br>
 <br>
-
 
 *``Las particiones extendidas tienen dentro particiones lógicas , por eso dice que hay un espacio libre , aunque hay una partición creada . Cuando se crean las lógicas se llena la extendida``*
 
 <br>
 <br>
 
-2.9 – Luego creamos dos particiones lógicas con el comando *``logical``* y como podemos ver se ha creado correctamente las particiones .
+
+
+9 - Creamos *``2``* particiones *``lógicas``*  con el comando *``logical``* dentro de la partición extendia , se han creado correctamente .
+
+~~~~~~~~
+# Mostramos las particiones
+
+# Seleccionamos la partición
+select partition 0
+
+# Creación de partición logica 
+create partition logical size=2000
+~~~~~~~~
 
 ![Crear nuevas particiones logicas](./img_diskpart/diskpart_9.png)
 <br>
 <br>
 
 
-2.10 – Mostramos todas las particiones como podemos ver se han creado correctamente todos las particiones
+
+10 - Mostramos todas las particiones ,  como podemos ver se han creado correctamente todos las particiones
 
 ![Mostrado resultado complero de disco mbr](./img_diskpart/diskpart_10.png)
 <br>
 <br>
 
 
-2.11 -  También para añadirle una letra a una partición podemos ejecutar el comando *``'assign letter=X'``* , para identificar la unidad
+
+11 - Si queremos añadir una letra para identificar la partición usamos *``'assign letter=X'``* .
+
+~~~~~~~~
+# Asignar letra 
+assign letter=A
+~~~~~~~~
 
 ![Añadiendo letra a la partición](./img_diskpart/diskpart_11.png)
 <br>
 <br>
 
 
-Para que se vea en el terminal podemos ejecutar el comando *``volume``* ahí se muestra todas las particiones de todos los discos , y ademas las demás características 
+
+12 - Comprobamos la letra en la unidad usando *``volume``* , muestra más información sobre las particiones .
+
+~~~~~~~~
+# Mostrar volumenes  
+list volume
+~~~~~~~~
 
 ![Añadiendo letra a la partición 2](./img_diskpart/diskpart_12.png)
 <br>
@@ -213,27 +253,45 @@ Para que se vea en el terminal podemos ejecutar el comando *``volume``* ahí se 
 
 
 
-2.12 - Si queremos darle nombre la partición utilizamos el comando *``format``* y el tipo de formato que queremos . Si añadimos *``quick``* es para dar formato rápido 
+13 - Para dar nombre a la partición utilizamos **``label``* , para el formato es *``format``* y para que lo haga rápido usamos *``quick``* .
+
+~~~~~~~~
+# Dar nombre y formato 
+format fs=NTFS label=ONE quick
+~~~~~~~~
 
 ![Formato de una partición](./img_diskpart/diskpart_13.png)
 <br>
 <br>
 
 
-2.13 Para ver la información completa de un disco utilizamos el comando *``detail``* y ahí podemos ver toda la infomación 
+
+14 - Neceitas ver la información completa de un disco usamos el comando *``detail``* , para mostrala .
+
+~~~~~~~~
+# Ver información de un disco
+datail disk
+~~~~~~~~
 
 ![Información del disco](./img_diskpart/diskpart_14.png)
 <br>
 <br>
 
 
-2.14 Para dejar el disco limpio como en el principio usamos *``clean all``* así como se muestra en aquí debajo 
+15 - Para borrar todas las particiones del disco utilizamos *``clean all``* , o sea limpia todo . 
+
+~~~~~~~~
+# Borrar particiones
+clean all
+~~~~~~~~
 
 ![Lipiar Disco](./img_diskpart/diskpart_15.png)
 <br>
 <br>
 
-> **¡Último consejo!** 🤓  
+
+**¡Último consejo!** 🤓  
+>
 > 🔐 Ejecuta `diskpart` como *``Administrador``* para evitar restricciones de permisos.  
 > ⚠️ Verifica siempre el *``número de disco``* antes de aplicar cambios irreversibles.  
 > 💻 Practica en una *``VM``* y repite los comandos para ganar confianza. 💪
