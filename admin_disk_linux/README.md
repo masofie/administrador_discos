@@ -3,10 +3,10 @@
 
 **📑 Indice**
 - [🐧💽 **Administrador de Discos en Linux/Ubuntu**](#-administrador-de-discos-en-linuxubuntu)
-  - [1. Gestor de Discos *``(GPARTED)``*](#1-gestor-de-discos-gparted)
-  - [2. Inicializando Disco](#2-inicializando-disco)
-  - [3. Particionando Disco *``gpt``*](#3-particionando-disco-gpt)
-  - [4. Particionando Disco *``mbr``*](#4-particionando-disco-mbr)
+  - [🔧 1. Gestor de Discos *``(GPARTED)``*](#-1-gestor-de-discos-gparted)
+  - [🐣 2. Inicializando Disco](#-2-inicializando-disco)
+  - [🧭  3. Particionando Disco *``gpt``*](#--3-particionando-disco-gpt)
+  - [🧱 4. Particionando Disco *``mbr``*](#-4-particionando-disco-mbr)
 
 <br>
 
@@ -24,13 +24,14 @@ Esta herramienta es ideal para quienes prefieren una interfaz visual sencilla , 
 
 <br>
 
-## 1. Gestor de Discos *``(GPARTED)``*
+## 🔧 1. Gestor de Discos *``(GPARTED)``*
 <br>
 
 
 1 - Descargamos el gestor desde la la página oficial de Linux , usando el siguiente enlaces te lleva a esta ventana , a ahí puedes descargar el paquete o solo copiar el comando en el terminal y descargarlo . Nosotros utilizaremos el comando 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# URL de descarga
 https://gparted.org/download.php
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -43,6 +44,7 @@ https://gparted.org/download.php
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Instalación de servicio 
 sudo apt-get install gparted
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -54,6 +56,7 @@ sudo apt-get install gparted
 3 - Después buscamos nuestro disco en el terminal y eliminamos todo con el siguiente comando , esto para que nos quede libre . Ten encuentra que esto solo son pruebas y este disco es secundario .
 
 ~~~~~~~~~~~~~~~~~~~~~~~
+# Elimación de información 
 sudo wipefs -a /dev/sdb
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -62,7 +65,7 @@ sudo wipefs -a /dev/sdb
 <br>
 
 
-## 2. Inicializando Disco
+## 🐣 2. Inicializando Disco
 <br>
 
 
@@ -89,14 +92,14 @@ sudo wipefs -a /dev/sdb
 <br>
 
 
-4 - Nos da distintos tipos pero vamos ha escoger *``GPT``* y aplicamos los cambios de la siguiente manera 
+4 - Nos da distintos tipos pero vamos ha escoger *``gpt``* y aplicamos los cambios de la siguiente manera 
 
 ![Correcto inicalizacion 2 ](./img_gparted/7_inicializando_disco_correct.png)
 <br>
 <br>
 
 
-## 3. Particionando Disco *``gpt``*
+## 🧭  3. Particionando Disco *``gpt``*
 <br>
 
 
@@ -128,7 +131,7 @@ sudo wipefs -a /dev/sdb
 <br>
 
 
-5 - Intentamos crear una partición extendida , *``NO SE PUEDE``* , porque las particiones extendidas y lógicas no se pueden crear en porque  un disco *``GPT``* estas particiones no son compatibles .
+5 - Intentamos crear una partición extendida , *``NO SE PUEDE``* , porque las particiones extendidas y lógicas no se pueden crear en porque  un disco *``gpt``* estas particiones no son compatibles .
 
 ![Particionando Disco GPT 5](./img_gparted/12_particiondo_gpt.png)
 <br>
@@ -152,9 +155,9 @@ sudo wipefs -a /dev/sdb
 
 
 
-## 4. Particionando Disco *``mbr``*
+## 🧱 4. Particionando Disco *``mbr``*
 
-1 - Inicializamos el disco en formato *``MBR (Master Boot Record)``* , en sistemas operativos Linux no aparece directamente como *``MBR``* , aparece como *``MSDOS``* que es lo mismo .
+1 - Inicializamos el disco en formato *``MBR (Master Boot Record)``* , en sistemas operativos Linux no aparece directamente como *``mbr``* , aparece como *``msdos``* que es lo mismo .
 
 ![Inicializando disco MBR](./img_gparted/15_inicializando_mbr.png)
 <br>
@@ -169,7 +172,7 @@ sudo wipefs -a /dev/sdb
 <br>
 
 
-3 - Creamos una partición extendida , como podemos ver nos deja perfectamente porque es un disco *``MBR``* 
+3 - Creamos una partición extendida , como podemos ver nos deja perfectamente porque es un disco *``mbr``* 
 
 ![Particionando Disco GPT 2](./img_gparted/17_particiondo_mbr.png)
 <br>
