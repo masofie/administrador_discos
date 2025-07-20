@@ -26,6 +26,9 @@ Con *``diskpart``* puedes crear, eliminar o modificar particiones (las divisione
 
 Puedes abrir *``diskpart``* desde el menú de búsqueda de Windows.  Escribe *``"Símbolo del sistema"``* o cmd , haz clic derecho y selecciona *``"Ejecutar como administrador"``*.  Luego, escribe diskpart y presiona *``Enter``* para iniciar la herramienta.
 
+<br>
+<br>
+
 
 - 💡 **Comandos Principales :**
 
@@ -205,6 +208,7 @@ list partition
 
 ~~~~~~~~
 # Mostramos las particiones
+list disk 
 
 # Seleccionamos la partición
 select partition 0
