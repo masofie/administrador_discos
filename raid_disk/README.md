@@ -5,7 +5,6 @@
 - [💽 RAID: Tipos y Usos](#-raid-tipos-y-usos)
   - [🛡️ ¿Qué es RAID?](#️-qué-es-raid)
   - [🧱 Tipos de RAID Explicados](#-tipos-de-raid-explicados)
-  - [🧱 Tipos de RAID Explicados](#-tipos-de-raid-explicados-1)
 
 <br>
 
@@ -25,8 +24,6 @@
 
 ## 🧱 Tipos de RAID Explicados
 <br>
-
-## 🧱 Tipos de RAID Explicados
 
 | Nivel RAID | ¿Cómo funciona? 📚                                                                 | Ventajas ✅                              | Desventajas ⚠️                         |
 |------------|-------------------------------------------------------------------------------------|------------------------------------------|-----------------------------------------|
