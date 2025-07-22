@@ -74,11 +74,11 @@
 
 2 - Inicializar los discos
 
-    Arranca la VM e ingresa a Administrador de discos (diskmgmt.msc).
+  - Arranca la VM e ingresa a Administrador de discos (diskmgmt.msc).
 
-    Al detectar los nuevos discos, el sistema te pedirá inicializarlos.
+  - Al detectar los nuevos discos, el sistema te pedirá inicializarlos.
 
-    Selecciona el estilo de partición: MBR o GPT, según el caso.
+  - Selecciona el estilo de partición: MBR o GPT, según el caso.
 
 ![Inicializamos los discos](./img/raid0.png)
 <br>
@@ -87,23 +87,23 @@
 
 3️ - Crear el volumen distribuido (RAID 0)
 
-    Haz clic derecho sobre uno de los discos sin asignar → Nuevo volumen distribuido...
+  - Haz clic derecho sobre uno de los discos sin asignar → Nuevo volumen distribuido...
 
 ![ Nuevo volumen distribuido](./img/raid1.png)
 <br>
 <br>
 
 
-    Se abre el asistente:
+  - Se abre el asistente:
 
-        Selecciona ambos discos → clic en Siguiente
+    - Selecciona ambos discos → clic en Siguiente
 
 ![Ambos discos](./img/raid2.png)
 <br>
 <br>
 
 
-        Asigna una letra (por ejemplo E:)
+    - Asigna una letra (por ejemplo E:)
 
 ![Inicializamos los discos](./img/raid3.png)
 <br>
