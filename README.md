@@ -42,3 +42,4 @@ Aprende a gestionar discos en sistemas *Windows* y *Linux*. En esta guía veremo
 - [Diskpart (cmd)](./diskpart_cmd/README.md)
 - [Admistrador de Discos en Linux/Ubuntu](./admin_disk_linux/README.md)
 - [Terminal de Linux/Ubuntu](./fdisk_cmd/README.md)
+- [Creación de RAID](./raid_disk/README.md)
