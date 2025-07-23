@@ -6,8 +6,8 @@
   - [🛡️ ¿Qué es RAID?](#️-qué-es-raid)
   - [🧱 Tipos de RAID Explicados](#-tipos-de-raid-explicados)
   - [🖥️ 1. Windows Server](#️-1-windows-server)
-  - [🔸 1. RAID 0 - Crear Volumen Distribuido (Administrador de discos)](#-1-raid-0---crear-volumen-distribuido-administrador-de-discos)
-    - [📌 1.1 Pasos para configurar RAID 0 en Windows Server:](#-11-pasos-para-configurar-raid-0-en-windows-server)
+    - [🔧 1.1 Configuración de Discos en VirtualBox](#-11-configuración-de-discos-en-virtualbox)
+    - [💽 1.2 Crear RAID 0 (Volumen Distribuido)](#-12-crear-raid-0-volumen-distribuido)
   - [💻 2. Windows Cliente (Windows 10/11)](#-2-windows-cliente-windows-1011)
 
 <br>
@@ -55,90 +55,90 @@
 <br>
 <br>
 
-## 🔸 1. RAID 0 - Crear Volumen Distribuido (Administrador de discos)
+### 🔧 1.1 Configuración de Discos en VirtualBox
 <br>
 
-### 📌 1.1 Pasos para configurar RAID 0 en Windows Server:
-<br>
+💡 En VirtualBox, añade al menos ``2`` discos sin formato desde **“Almacenamiento”** y conéctalos al controlador ``SATA`` antes de iniciar la VM .
 
-1 - Crear discos virtuales en VirtualBox
-
-    Abre la configuración de tu VM y añade dos discos duros vacíos desde el controlador SATA.
-
-    Asegúrate de que no tengan formato previo.
-
-![Agregar nuevo disco](./img/virtualbox1.png)
+![Nuevos Discos](./img/raid0/virtualbox1.png)
 <br>
 <br>
 
 
-2 - Inicializar los discos
+### 💽 1.2 Crear RAID 0 (Volumen Distribuido)
+<br>
 
-  - Arranca la VM e ingresa a Administrador de discos (diskmgmt.msc).
+1 - Abre el administrador de discos con ``diskmgmt.msc`` , inicializa los dos discos nuevos como ``MBR`` o ``GPT`` .
 
-  - Al detectar los nuevos discos, el sistema te pedirá inicializarlos.
-
-  - Selecciona el estilo de partición: MBR o GPT, según el caso.
-
-![Inicializamos los discos](./img/raid0.png)
+![Inicializar Disco](./img/raid0/raid0.png)
 <br>
 <br>
 
 
-3️ - Crear el volumen distribuido (RAID 0)
+2 - Selecciona ``Nuevo volumen distribuido`` para comenzar la creación del RAID 0.
 
-  - Haz clic derecho sobre uno de los discos sin asignar → Nuevo volumen distribuido...
-
-![ Nuevo volumen distribuido](./img/raid1.png)
-<br>
-<br>
-
-
-  - Se abre el asistente:
-
-    - Selecciona ambos discos → clic en Siguiente
-
-![Ambos discos](./img/raid2.png)
-<br>
-<br>
-
-
-    - Asigna una letra (por ejemplo E:)
-
-![Inicializamos los discos](./img/raid3.png)
-<br>
-<br>
-
-
-        Elige:
-
-            Formato: NTFS
-
-            Nombre del volumen: RAID_0
-
-            ✅ Puedes activar "Habilitar compresión de archivos y carpetas" si lo deseas.
-
-            Marca la casilla de formato rápido
-
-![Inicializamos los discos](./img/raid4.png)
+![Nuevo volumen distribuido](./img/raid0/raid1.png)
 <br>
 <br>
 
 
 
-    Acepta la advertencia de que se borrarán los datos y finaliza.
+3 - En la ventana que aparece , haz clic en ``siguiente`` para continuar con el asistente.
 
-![Inicializamos los discos](./img/raid5.png)
+![Asistente](./img/raid0/raid2.png)
 <br>
 <br>
 
 
-    🎉 El volumen se mostrará como Distribuido (RAID 0).
+4 - Selecciona ``ambos`` discos que quieres incluir en el ``RAID 0`` (mínimo dos discos).
 
-
-
+![Seleccionar dos discos](./img/raid0/raid3.png)
 <br>
 <br>
+
+
+5 - Asigna una letra de unidad para el nuevo volumen ``(por ejemplo, R:)``.
+
+![Letra de la unidad](./img/raid0/raid4.png)
+<br>
+<br>
+
+
+6 - Configura el formato como ``NTFS`` , ponle un nombre al volumen ``(ej. RAID-0)`` , y marca ``Formato rápido`` y opcionalmente ``Habilitar compresión``.
+
+![Formato del disco](./img/raid0/raid5.png)
+<br>
+<br>
+
+
+7 - Revisa el resumen y haz clic en ``Finalizar``
+
+![Finalizar configuración](./img/raid0/raid6.png)
+<br>
+<br>
+
+
+8 - Verifica que el nuevo volumen aparece como un único disco con la letra asignada y el tamaño combinado listo para usar.  
+
+![Verificacion de raid0](./img/raid0/raid7.png)
+<br>
+<br>
+
+
+9 - Acepta la advertencia sobre eliminación de datos para crear el volumen.
+
+![Advertencia](./img/raid0/raid8.png)
+<br>
+<br>
+
+
+10 - El volumen se ha creado correctamente 
+
+![RAID 0 creado](./img/raid0/raid8.png)
+<br>
+<br>
+
+
 
 ## 💻 2. Windows Cliente (Windows 10/11)
 
