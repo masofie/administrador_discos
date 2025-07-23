@@ -139,8 +139,6 @@
 <br>
 
 
------------------------------
-
 ## 💻 2. Windows Cliente (Windows 10/11)
 
 🔧 Limitado, pero posible
