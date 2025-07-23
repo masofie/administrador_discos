@@ -134,7 +134,7 @@
 
 10 - El volumen se ha creado correctamente 
 
-![RAID 0 creado](./img/raid0/raid8.png)
+![RAID 0 creado](./img/raid0/raid9.png)
 <br>
 <br>
 
