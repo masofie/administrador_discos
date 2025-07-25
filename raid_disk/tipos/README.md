@@ -5,7 +5,6 @@
 - [💽 RAID-0](#-raid-0)
     - [🔧 1.1 Configuración de Discos en VirtualBox](#-11-configuración-de-discos-en-virtualbox)
     - [💽 1.2 Crear RAID-0 (Volumen Distribuido)](#-12-crear-raid-0-volumen-distribuido)
-  - [💻 2. Windows Cliente (Windows 10/11)](#-2-windows-cliente-windows-1011)
 
 <br>
 <br>
@@ -90,24 +89,4 @@
 10 - El volumen se ha creado correctamente fijate que los dos tienen el mismo color.
 
 ![RAID 0 creado](./img/raid0/raid9.png)
-<br>
-<br>
 
-
-## 💻 2. Windows Cliente (Windows 10/11)
-
-🔧 Limitado, pero posible
-
-- Solo permite configurar ``RAID`` básicos con Espacios de almacenamiento (Storage Spaces).
-
-- Puedes crear algo similar a ``RAID 0``, ``1`` o ``Mirror`` , pero no tan avanzado ni tan confiable como en un servidor.
-
-- No es adecuado para producción crítica.
-
-<br>
-<br>
-
-💡 Recomendación:
-
->Para ``RAID`` serio y confiable, lo mejor es usar Windows Server o bien un sistema Linux especializado.
->Si es solo para pruebas o uso doméstico , **Windows 10/11** con Storage Spaces puede servir.
