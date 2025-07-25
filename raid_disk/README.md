@@ -46,7 +46,7 @@
 - Soporta varios niveles RAID (0, 1, 5, 10, etc.).
 - Ideal para entornos profesionales o empresariales.
 
-<br><br>
+<br>
 
 
 ### 🔘 1.1 Tipos de ``RAID`` :
