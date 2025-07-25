@@ -6,7 +6,7 @@
   - [🛡️ ¿Qué es RAID?](#️-qué-es-raid)
   - [🧱 Tipos de RAID Explicados](#-tipos-de-raid-explicados)
   - [🖥️ 1. Windows Server](#️-1-windows-server)
-    - [🔘1.1 Tipos de RAID](#11-tipos-de-raid)
+    - [🔘 1.1 Tipos de RAID :](#-11-tipos-de-raid-)
   - [💻 2. Windows Cliente (Windows 10/11)](#-2-windows-cliente-windows-1011)
 
 <br>
@@ -14,16 +14,15 @@
 ## 🛡️ ¿Qué es RAID?
 <br>
 
-``RAID (Redundant Array of Independent Disks)`` es una tecnología que permite combinar múltiples discos duros en una sola unidad lógica con el objetivo de :
+🛡️ **¿Qué es RAID?**
 
-- 💨 Aumentar el rendimiento de lectura/escritura
+``RAID (Redundant Array of Independent Disks)`` es una tecnología que combina múltiples discos duros en una sola unidad lógica con el fin de :
 
-- 🔐 Garantizar la disponibilidad de los datos
+- 💨 Mejorar el rendimiento de lectura/escritura.
+- 🔐 Aumentar la disponibilidad y seguridad de los datos.
+- 🧱 Incrementar la tolerancia a fallos en sistemas críticos.
+<br> <br>
 
-- 🧱 Mejorar la tolerancia a fallos en sistemas críticos
-
-<br>
-<br>
 
 ## 🧱 Tipos de RAID Explicados
 <br>
@@ -35,49 +34,40 @@
 | **RAID 5** | Datos + paridad distribuidos en 3 o más discos.                                    | Buen balance entre rendimiento y seguridad 🔁 | Más lento en escrituras y recuperación ⚠️ |
 | **RAID 10**| Combina RAID 1 (espejo) y RAID 0 (rendimiento). Requiere mínimo 4 discos.          | Redundancia + velocidad 💪               | Coste elevado en hardware 💰             |
 
-<br>
-<br>
+<br> <br>
 
 ## 🖥️ 1. Windows Server
 <br>
 
-✅ Recomendado para RAID
+✅ *Recomendado para ``RAID ``:*
 
-- Soporta ``RAID`` por software desde el Administrador de discos o Storage Spaces.
-
-- También permite gestionar ``RAID`` por hardware si el servidor tiene un controlador ``RAID``.
-
-- Soporta más niveles ``RAID`` (RAID 0, 1, 5, 10, etc.).
-
+- Soporta RAID por software desde el Administrador de discos o Storage Spaces.
+- Permite gestionar RAID por hardware si el servidor cuenta con controlador RAID.
+- Soporta varios niveles RAID (0, 1, 5, 10, etc.).
 - Ideal para entornos profesionales o empresariales.
 
-<br>
-<br>
+<br> <br>
 
 
-### 🔘1.1 Tipos de RAID
+### 🔘 1.1 Tipos de RAID :
 
 - [RAID-0](./tipos/RAID0.md)
 - [RAID-1](./tipos/RAID-1.md)
 - [RAID-5](./tipos/RAID-5.md)
 
-<br>
-<br>
+<br> <br>
 
 
 
 ## 💻 2. Windows Cliente (Windows 10/11)
 
-🔧 Limitado, pero posible
+🔧 *Limitado, pero posible :*
 
-- Solo permite configurar ``RAID`` básicos con Espacios de almacenamiento (Storage Spaces).
-
-- Puedes crear algo similar a ``RAID 0``, ``1`` o ``Mirror`` , pero no tan avanzado ni tan confiable como en un servidor.
-
+- Permite configurar RAID básicos con Espacios de almacenamiento (Storage Spaces).
+- Puedes crear configuraciones similares a RAID 0, 1 o Mirror, pero con menor fiabilidad y sin tantas opciones avanzadas.
 - No es adecuado para producción crítica.
 
-<br>
-<br>
+<br> <br>
 
 💡 Recomendación:
 
