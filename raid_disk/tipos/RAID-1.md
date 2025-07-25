@@ -10,7 +10,7 @@
 ## 📋 Pasos para configurar ``RAID-1``
 <br>
 
-1️⃣ Seleccionamos la opción ``volumen reflejado`` desde el Administrador de discos.
+1️⃣ Seleccionamos la opción ``volumen reflejado`` desde el administrador de discos.
 
 ![Volumen reflejado](./img/raid1/raid1.png)
 <br> <br>
@@ -61,4 +61,11 @@
 9️⃣ ¡``RAID-1`` creado con éxito ✅! Tendrás una única unidad reflejada en dos discos para mayor seguridad.
 
 ![RAID-1 creado](./img/raid1/raid9.png)
+<br> <br>
 
+
+**📌 Final del apartado ``RAID-1``**
+
+Con estos pasos , el ``RAID-1`` queda correctamente configurado , ofreciendo una copia exacta de los datos en ambos discos.
+- 🔁 Ideal para entornos donde la seguridad y la redundancia son prioritarias.
+- ⚠️ Recuerda que solo usarás el ``50%`` del espacio total , ya que uno de los discos actúa como espejo.
