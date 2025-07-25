@@ -52,13 +52,13 @@
 <br> <br>
 
 
-8️⃣ ⚠️ Aparecerá una advertencia sobre la conversión a discos dinámicos; aceptamos para continuar.
+8️⃣ Aparecerá una ⚠️ advertencia sobre la conversión a discos dinámicos; aceptamos para continuar.
 
 ![Advertencia del raid](./img/raid1/raid8.png)
 <br> <br>
 
 
-9️⃣ ✅ ¡RAID 1 creado con éxito! Tendrás una única unidad reflejada en dos discos para mayor seguridad.
+9️⃣ ¡RAID 1 creado con éxito ✅! Tendrás una única unidad reflejada en dos discos para mayor seguridad.
 
 ![RAID-1 creado](./img/raid1/raid9.png)
 
