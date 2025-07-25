@@ -39,7 +39,7 @@
 ## 🖥️ 1. Windows Server
 <br>
 
-✅ *Recomendado para ``RAID ``:*
+**✅ Recomendado para ``RAID ``:**
 
 - Soporta RAID por software desde el Administrador de discos o Storage Spaces.
 - Permite gestionar RAID por hardware si el servidor cuenta con controlador RAID.
@@ -50,10 +50,11 @@
 
 
 ### 🔘 1.1 Tipos de RAID :
-
-  - [⚡ RAID-0 (Striping)](./tipos/RAID0.md)
-  - [🛡️ RAID-1 (Mirroring)](./tipos/RAID-1.md)
-  - [🔄 RAID-5 (Paridad distribuida)](./tipos/RAID-5.md)
+>
+>    - [⚡ RAID-0 (Striping)](./tipos/RAID0.md)
+>    - [🛡️ RAID-1 (Mirroring)](./tipos/RAID-1.md)
+>    - [🔄 RAID-5 (Paridad distribuida)](./tipos/RAID-5.md)
+>
 
 <br> <br>
 
