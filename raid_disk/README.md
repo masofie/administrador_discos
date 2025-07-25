@@ -46,14 +46,14 @@
 - Soporta varios niveles RAID (0, 1, 5, 10, etc.).
 - Ideal para entornos profesionales o empresariales.
 
-<br> <br>
+<br>
 
 
 ### 🔘 1.1 Tipos de RAID :
 
-- [⚡ RAID-0 (Striping)](./tipos/RAID0.md)
-- [🛡️ RAID-1 (Mirroring)](./tipos/RAID-1.md)
-- [🔄 RAID-5 (Paridad distribuida)](./tipos/RAID-5.md)
+  - [⚡ RAID-0 (Striping)](./tipos/RAID0.md)
+  - [🛡️ RAID-1 (Mirroring)](./tipos/RAID-1.md)
+  - [🔄 RAID-5 (Paridad distribuida)](./tipos/RAID-5.md)
 
 <br> <br>
 
