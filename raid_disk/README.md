@@ -59,7 +59,7 @@
 
 - [RAID-0](./tipos/RAID0.md)
 - [RAID-1](./tipos/RAID-1.md)
-- [RAID-1](./tipos/RAID-5.md)
+- [RAID-5](./tipos/RAID-5.md)
 
 <br>
 <br>
