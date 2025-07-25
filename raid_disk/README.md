@@ -46,12 +46,12 @@
 - Soporta varios niveles RAID (0, 1, 5, 10, etc.).
 - Ideal para entornos profesionales o empresariales.
 
-<br>
+<br><br>
 
 
 ### 🔘 1.1 Tipos de RAID :
+<br>
 
->
 > - Como crearlos? 
 >   - [⚡ RAID-0 (Striping)](./tipos/RAID0.md)
 >   - [🛡️ RAID-1 (Mirroring)](./tipos/RAID-1.md)
