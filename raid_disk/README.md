@@ -3,15 +3,15 @@
 
 **📑 Indice**
 - [💽 RAID en Windows](#-raid-en-windows)
-  - [🛡️ ¿Qué es RAID?](#️-qué-es-raid)
-  - [🧱 Tipos de RAID Explicados](#-tipos-de-raid-explicados)
+  - [🛡️ ¿Qué es ``RAID``?](#️-qué-es-raid)
+  - [🧱 Tipos de ``RAID`` Explicados](#-tipos-de-raid-explicados)
   - [🖥️ 1. Windows Server](#️-1-windows-server)
-    - [🔘 1.1 Tipos de RAID :](#-11-tipos-de-raid-)
+    - [🔘 1.1 Tipos de ``RAID`` :](#-11-tipos-de-raid-)
   - [💻 2. Windows Cliente (Windows 10/11)](#-2-windows-cliente-windows-1011)
 
 <br>
 
-## 🛡️ ¿Qué es RAID?
+## 🛡️ ¿Qué es ``RAID``?
 <br>
 
 🛡️ **¿Qué es RAID?**
@@ -24,7 +24,7 @@
 <br> <br>
 
 
-## 🧱 Tipos de RAID Explicados
+## 🧱 Tipos de ``RAID`` Explicados
 <br>
 
 | Nivel RAID | ¿Cómo funciona? 📚                                                                 | Ventajas ✅                              | Desventajas ⚠️                         |
@@ -49,7 +49,7 @@
 <br><br>
 
 
-### 🔘 1.1 Tipos de RAID :
+### 🔘 1.1 Tipos de ``RAID`` :
 <br>
 
 > - Como crearlos? 
